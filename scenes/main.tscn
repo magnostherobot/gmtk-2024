@@ -1,10 +1,15 @@
-[gd_scene load_steps=2 format=3 uid="uid://d4jsgbnefaos0"]
+[gd_scene load_steps=3 format=3 uid="uid://d4jsgbnefaos0"]
 
 [ext_resource type="PackedScene" uid="uid://bfvp6uoec3dxw" path="res://scenes/hand.tscn" id="1_wtpr2"]
+[ext_resource type="PackedScene" uid="uid://17hxhv2kfbmb" path="res://scenes/hand-column.tscn" id="2_n1frt"]
 
 [node name="Root" type="Node2D"]
 
 [node name="Camera2D" type="Camera2D" parent="."]
 
 [node name="Hand" parent="." instance=ExtResource("1_wtpr2")]
-position = Vector2(1, 231)
+position = Vector2(-73, 240)
+
+[node name="HandColumn" parent="." instance=ExtResource("2_n1frt")]
+position = Vector2(290, 240)
+count = 3

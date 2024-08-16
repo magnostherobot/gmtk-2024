@@ -6,6 +6,7 @@
 
 [node name="HandColumn" parent="." instance=ExtResource("1_bq2wk")]
 position = Vector2(-207, 0)
+count = 8
 
 [node name="HandColumn2" parent="." instance=ExtResource("1_bq2wk")]
 position = Vector2(-147, 0)
