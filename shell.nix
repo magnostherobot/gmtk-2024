@@ -25,6 +25,7 @@ in
 pkgs.mkShell {
   packages = [
     godot-4_3
+    pkgs.inkscape
   ];
 
   env = { };
