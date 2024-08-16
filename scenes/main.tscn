@@ -1,3 +1,10 @@
-[gd_scene format=3 uid="uid://d4jsgbnefaos0"]
+[gd_scene load_steps=2 format=3 uid="uid://d4jsgbnefaos0"]
 
-[node name="Node2D" type="Node2D"]
+[ext_resource type="PackedScene" uid="uid://bfvp6uoec3dxw" path="res://scenes/hand.tscn" id="1_wtpr2"]
+
+[node name="Root" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Hand" parent="." instance=ExtResource("1_wtpr2")]
+position = Vector2(1, 231)

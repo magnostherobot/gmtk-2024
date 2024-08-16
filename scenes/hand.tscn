@@ -1,0 +1,29 @@
+[gd_scene load_steps=2 format=3 uid="uid://bfvp6uoec3dxw"]
+
+[ext_resource type="PackedScene" uid="uid://17hxhv2kfbmb" path="res://scenes/hand-column.tscn" id="1_bq2wk"]
+
+[node name="Hand" type="Node2D"]
+
+[node name="HandColumn" parent="." instance=ExtResource("1_bq2wk")]
+position = Vector2(-207, 0)
+
+[node name="HandColumn2" parent="." instance=ExtResource("1_bq2wk")]
+position = Vector2(-147, 0)
+
+[node name="HandColumn3" parent="." instance=ExtResource("1_bq2wk")]
+position = Vector2(-87, 0)
+
+[node name="HandColumn4" parent="." instance=ExtResource("1_bq2wk")]
+position = Vector2(-27, 0)
+
+[node name="HandColumn5" parent="." instance=ExtResource("1_bq2wk")]
+position = Vector2(32, 0)
+
+[node name="HandColumn6" parent="." instance=ExtResource("1_bq2wk")]
+position = Vector2(92, 0)
+
+[node name="HandColumn7" parent="." instance=ExtResource("1_bq2wk")]
+position = Vector2(152, 0)
+
+[node name="HandColumn8" parent="." instance=ExtResource("1_bq2wk")]
+position = Vector2(210, 0)
