@@ -9,9 +9,11 @@ script = ExtResource("1_phker")
 [node name="Card" parent="." instance=ExtResource("1_5jfua")]
 
 [node name="Label" type="Label" parent="."]
-offset_left = -43.0
-offset_top = 40.0
-offset_right = -2.0
-offset_bottom = 63.0
+offset_left = -57.0
+offset_top = 53.0
+offset_right = -16.0
+offset_bottom = 95.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 30
 text = "0"
 metadata/_edit_use_anchors_ = true

@@ -8,8 +8,8 @@
 [node name="Camera2D" type="Camera2D" parent="."]
 
 [node name="Hand" parent="." instance=ExtResource("1_wtpr2")]
-position = Vector2(-73, 240)
+position = Vector2(-74, 220)
 
 [node name="HandColumn" parent="." instance=ExtResource("2_n1frt")]
-position = Vector2(290, 240)
+position = Vector2(301, 220)
 count = 3
