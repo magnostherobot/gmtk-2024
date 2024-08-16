@@ -6,25 +6,32 @@
 
 [node name="HandColumn" parent="." instance=ExtResource("1_bq2wk")]
 position = Vector2(-207, 0)
-count = 8
+rank = 1
 
 [node name="HandColumn2" parent="." instance=ExtResource("1_bq2wk")]
 position = Vector2(-147, 0)
+rank = 2
 
 [node name="HandColumn3" parent="." instance=ExtResource("1_bq2wk")]
 position = Vector2(-87, 0)
+rank = 3
 
 [node name="HandColumn4" parent="." instance=ExtResource("1_bq2wk")]
 position = Vector2(-27, 0)
+rank = 4
 
 [node name="HandColumn5" parent="." instance=ExtResource("1_bq2wk")]
 position = Vector2(32, 0)
+rank = 5
 
 [node name="HandColumn6" parent="." instance=ExtResource("1_bq2wk")]
 position = Vector2(92, 0)
+rank = 6
 
 [node name="HandColumn7" parent="." instance=ExtResource("1_bq2wk")]
 position = Vector2(152, 0)
+rank = 7
 
 [node name="HandColumn8" parent="." instance=ExtResource("1_bq2wk")]
 position = Vector2(210, 0)
+rank = 8

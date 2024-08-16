@@ -1,8 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://iggek3xckqbc"]
+[gd_scene load_steps=3 format=3 uid="uid://iggek3xckqbc"]
 
-[ext_resource type="Texture2D" uid="uid://jddeqhhhfk70" path="res://sprites/cards-simple.png" id="1_l5cw8"]
+[ext_resource type="Script" path="res://scripts/card.gd" id="1_6jlmp"]
+[ext_resource type="Texture2D" uid="uid://jddeqhhhfk70" path="res://sprites/cards.png" id="1_l5cw8"]
 
 [node name="Card" type="Node2D"]
+script = ExtResource("1_6jlmp")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("1_l5cw8")

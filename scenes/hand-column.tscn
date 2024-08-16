@@ -5,6 +5,7 @@
 
 [node name="HandColumn" type="Node2D"]
 script = ExtResource("1_phker")
+rank = null
 
 [node name="Card" parent="." instance=ExtResource("1_5jfua")]
 
