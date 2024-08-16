@@ -13,3 +13,6 @@ func _ready() -> void:
 func _process(_delta: float) -> void:
 	$Label.text = str(count)
 	$Card.rank = rank
+	
+	self.visible = count > 0
+	$Label.visible = count != 1

@@ -4,8 +4,8 @@
 [ext_resource type="Script" path="res://scripts/hand_column.gd" id="1_phker"]
 
 [node name="HandColumn" type="Node2D"]
+visible = false
 script = ExtResource("1_phker")
-rank = null
 
 [node name="Card" parent="." instance=ExtResource("1_5jfua")]
 
