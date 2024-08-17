@@ -6,8 +6,7 @@ signal card_unhovered(rank: int)
 
 @export var count: int = 0
 @export var rank: int = 1
-
-@export var hand: Node2D
+@export var faceup: bool = true
 
 func select() -> void:
 	$Visual.translate(Vector2(0, -20))
@@ -23,6 +22,7 @@ func _ready() -> void:
 func _process(_delta: float) -> void:
 	$Visual/Label.text = str(count)
 	$Visual/Card.rank = rank
+	$Visual/Card.faceup = faceup
 	
 	self.visible = count > 0
 	$Visual/Label.visible = count != 1
