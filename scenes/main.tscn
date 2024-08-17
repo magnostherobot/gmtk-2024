@@ -80,10 +80,21 @@ text = "pile"
 script = ExtResource("7_wmo5i")
 win_pile = NodePath("../../WinPile")
 
-[node name="Manager" type="Node2D" parent="." node_paths=PackedStringArray("player_hand", "pile", "win_pile")]
+[node name="PassButton" type="Button" parent="UI"]
+layout_mode = 0
+offset_left = -563.0
+offset_top = -250.0
+offset_right = -520.0
+offset_bottom = -219.0
+scale = Vector2(2.47872, 2.27922)
+text = "pass"
+
+[node name="Manager" type="Node2D" parent="." node_paths=PackedStringArray("player_hand", "player_deck", "opponent_deck", "pile", "win_pile")]
 z_index = -2
 script = ExtResource("7_mp5rb")
 player_hand = NodePath("../PlayerHand")
+player_deck = NodePath("../PlayerDeck")
+opponent_deck = NodePath("../OpponentDeck")
 pile = NodePath("../Pile")
 win_pile = NodePath("../WinPile")
 
@@ -99,4 +110,5 @@ scale = Vector2(0.5, 0.5)
 [connection signal="pressed" from="UI/DrawButton" to="UI/DrawButton" method="_button_pressed"]
 [connection signal="pressed" from="UI/ThrowButton" to="UI/ThrowButton" method="_on_pressed"]
 [connection signal="pressed" from="UI/PileButton" to="UI/PileButton" method="_on_pressed"]
+[connection signal="pressed" from="UI/PassButton" to="Manager" method="_on_player_pass"]
 [connection signal="timeout" from="Manager/Timer" to="Manager" method="_on_opponent_timer_timeout"]
