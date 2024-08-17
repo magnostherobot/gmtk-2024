@@ -1,0 +1,67 @@
+[gd_scene load_steps=11 format=3 uid="uid://dpr1gbf1acv8h"]
+
+[ext_resource type="PackedScene" uid="uid://dqxskxo5wqwd" path="res://scenes/single-rank-pile.tscn" id="1_1qnj6"]
+[ext_resource type="Script" path="res://scripts/pile.gd" id="1_mvcbl"]
+[ext_resource type="Texture2D" uid="uid://jddeqhhhfk70" path="res://sprites/cards.png" id="2_g764b"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_12844"]
+atlas = ExtResource("2_g764b")
+region = Rect2(0, 0, 134.308, 194)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0fal6"]
+atlas = ExtResource("2_g764b")
+region = Rect2(267.901, 0, 134.554, 194)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0m5ku"]
+atlas = ExtResource("2_g764b")
+region = Rect2(401.191, 0, 135.474, 194)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_540pc"]
+atlas = ExtResource("2_g764b")
+region = Rect2(535.607, 0, 133.778, 194)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_msftt"]
+atlas = ExtResource("2_g764b")
+region = Rect2(669.673, 0, 134.909, 194)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eyd3t"]
+atlas = ExtResource("2_g764b")
+region = Rect2(803.9, 0, 134.558, 194)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mgujo"]
+atlas = ExtResource("2_g764b")
+region = Rect2(936.495, 0, 135.919, 194)
+
+[node name="Pile" type="Node2D"]
+script = ExtResource("1_mvcbl")
+
+[node name="SingleRankPile1" parent="." instance=ExtResource("1_1qnj6")]
+position = Vector2(0, 0)
+card_texture = SubResource("AtlasTexture_12844")
+
+[node name="SingleRankPile2" parent="." instance=ExtResource("1_1qnj6")]
+position = Vector2(0, 0)
+
+[node name="SingleRankPile3" parent="." instance=ExtResource("1_1qnj6")]
+position = Vector2(0, 0)
+card_texture = SubResource("AtlasTexture_0fal6")
+
+[node name="SingleRankPile4" parent="." instance=ExtResource("1_1qnj6")]
+position = Vector2(0, 0)
+card_texture = SubResource("AtlasTexture_0m5ku")
+
+[node name="SingleRankPile5" parent="." instance=ExtResource("1_1qnj6")]
+position = Vector2(0, 0)
+card_texture = SubResource("AtlasTexture_540pc")
+
+[node name="SingleRankPile6" parent="." instance=ExtResource("1_1qnj6")]
+position = Vector2(0, 0)
+card_texture = SubResource("AtlasTexture_msftt")
+
+[node name="SingleRankPile7" parent="." instance=ExtResource("1_1qnj6")]
+position = Vector2(0, 0)
+card_texture = SubResource("AtlasTexture_eyd3t")
+
+[node name="SingleRankPile8" parent="." instance=ExtResource("1_1qnj6")]
+position = Vector2(0, 0)
+card_texture = SubResource("AtlasTexture_mgujo")

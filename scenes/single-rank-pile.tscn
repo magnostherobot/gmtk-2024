@@ -1,0 +1,39 @@
+[gd_scene load_steps=4 format=3 uid="uid://dqxskxo5wqwd"]
+
+[ext_resource type="Texture2D" uid="uid://jddeqhhhfk70" path="res://sprites/cards.png" id="1_qg45e"]
+[ext_resource type="Script" path="res://scripts/set_pile.gd" id="2_y04l2"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_02fj0"]
+atlas = ExtResource("1_qg45e")
+region = Rect2(133.164, 0, 135.361, 192)
+
+[node name="SingleRankPile" type="CPUParticles2D"]
+z_index = -2
+position = Vector2(0, 144)
+emitting = false
+amount = 100
+explosiveness = 0.9
+randomness = 0.15
+emission_shape = 3
+emission_rect_extents = Vector2(300, 100)
+direction = Vector2(0, -1)
+spread = 15.0
+gravity = Vector2(0, 0)
+initial_velocity_min = 700.0
+initial_velocity_max = 900.0
+angular_velocity_min = -10.0
+angular_velocity_max = 10.0
+linear_accel_min = -2000.0
+linear_accel_max = -2000.0
+radial_accel_min = -100.0
+radial_accel_max = -100.0
+scale_amount_min = 0.5
+scale_amount_max = 0.5
+script = ExtResource("2_y04l2")
+card_texture = SubResource("AtlasTexture_02fj0")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.5
+one_shot = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
