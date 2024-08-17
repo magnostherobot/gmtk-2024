@@ -9,7 +9,3 @@ func _ready() -> void:
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	pass
-
-
-func _on_deck_size_placeholder_timeout():
-	$PlayerDeck.value+=1
