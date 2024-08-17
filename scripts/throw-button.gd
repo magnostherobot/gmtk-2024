@@ -8,9 +8,12 @@ func _ready() -> void:
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	pass
 
 
 func _on_pressed() -> void:
-	pile.play_cards([20, 100, 30, 40])
+	var thrown = []
+	for i in range(0, 8):
+		thrown.push_back(randi() % 100 + 1)
+	pile.play_cards(thrown)

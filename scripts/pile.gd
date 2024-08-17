@@ -11,9 +11,9 @@ func play_cards(counts: Array) -> void:
 	for i in range(0, len(counts)):
 		rank_piles[i].play_cards(counts[i])
 
-func play_run(min: int, max: int, count: int) -> void:
+func play_run(min_rank: int, max_rank: int, count: int) -> void:
 	clear()
-	for i in range(min, max + 1):
+	for i in range(min_rank, max_rank + 1):
 		rank_piles[i - 1].play_cards(count)
 
 # Called when the node enters the scene tree for the first time.
@@ -30,5 +30,5 @@ func _ready() -> void:
 	]
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	pass
