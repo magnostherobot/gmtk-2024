@@ -3,6 +3,13 @@ extends Node2D
 
 @export var counts = [0, 0, 0, 0, 0, 0, 0, 0]
 
+func add_card(rank: int):
+	counts[rank - 1] += 1
+
+func add_cards(cards: Array):
+	for card in cards:
+		add_card(card)
+
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	pass # Replace with function body.

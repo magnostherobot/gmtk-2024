@@ -27,8 +27,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="1"
-     inkscape:cx="508.5"
-     inkscape:cy="-53.5"
+     inkscape:cx="528.5"
+     inkscape:cy="94"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -43,6 +43,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-8.2640507,-35.795141)">
+<<<<<<< Updated upstream
     <rect
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        id="rect1"
