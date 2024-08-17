@@ -2,27 +2,28 @@
 
 [ext_resource type="PackedScene" uid="uid://bfvp6uoec3dxw" path="res://scenes/hand.tscn" id="1_wtpr2"]
 [ext_resource type="PackedScene" uid="uid://17hxhv2kfbmb" path="res://scenes/hand-column.tscn" id="2_n1frt"]
-[ext_resource type="PackedScene" path="res://scenes/deck.tscn" id="3_77w5e"]
+[ext_resource type="PackedScene" uid="uid://c8747s5dmbype" path="res://scenes/deck.tscn" id="3_77w5e"]
 
 [node name="Root" type="Node2D"]
 
 [node name="Camera2D" type="Camera2D" parent="."]
 
-[node name="Hand" parent="." instance=ExtResource("1_wtpr2")]
+[node name="PlayerHand" parent="." instance=ExtResource("1_wtpr2")]
 position = Vector2(-74, 220)
 counts = [7, 1, 1, 1, 4, 0, 3, 1]
 
-[node name="HandColumn" parent="." instance=ExtResource("2_n1frt")]
+[node name="OpponentHand" parent="." instance=ExtResource("2_n1frt")]
 position = Vector2(301, 220)
 count = 3
+faceup = false
 
-[node name="Deck" parent="." instance=ExtResource("3_77w5e")]
+[node name="PlayerDeck" parent="." instance=ExtResource("3_77w5e")]
 z_index = -1
 position = Vector2(-460, 540)
 scale = Vector2(0.63778, 0.63778)
 cards = [1, 2, 3, null, null, null, null, null, null]
 
-[node name="Deck2" parent="." instance=ExtResource("3_77w5e")]
+[node name="OpponentDeck" parent="." instance=ExtResource("3_77w5e")]
 z_index = -1
 position = Vector2(460, 540)
 scale = Vector2(-0.638, 0.638)
