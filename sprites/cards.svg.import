@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://qiywkw3c0m84"
-path="res://.godot/imported/cards.svg-744ff1739ed257daa677e99e793d17c8.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://sprites/cards.svg"
-dest_files=["res://.godot/imported/cards.svg-744ff1739ed257daa677e99e793d17c8.ctex"]
 
 [params]
 

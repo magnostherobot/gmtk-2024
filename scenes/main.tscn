@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://d4jsgbnefaos0"]
 
-[ext_resource type="PackedScene" uid="uid://bfvp6uoec3dxw" path="res://scenes/hand.tscn" id="1_wtpr2"]
-[ext_resource type="PackedScene" uid="uid://17hxhv2kfbmb" path="res://scenes/hand-column.tscn" id="2_n1frt"]
-[ext_resource type="PackedScene" uid="uid://c8747s5dmbype" path="res://scenes/deck.tscn" id="3_77w5e"]
+[ext_resource type="PackedScene" path="res://scenes/hand.tscn" id="1_wtpr2"]
+[ext_resource type="PackedScene" path="res://scenes/hand-column.tscn" id="2_n1frt"]
+[ext_resource type="PackedScene" path="res://scenes/deck.tscn" id="3_77w5e"]
 
 [node name="Root" type="Node2D"]
 

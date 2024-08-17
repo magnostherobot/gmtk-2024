@@ -1,7 +1,18 @@
-[gd_scene load_steps=3 format=3 uid="uid://b7jlgvuteoajc"]
+[gd_scene load_steps=2 format=3 uid="uid://b7jlgvuteoajc"]
 
-[ext_resource type="Script" path="res://scenes/ui.gd" id="1_huh0m"]
-[ext_resource type="Texture2D" uid="uid://cc0ramw6nqkfu" path="res://textures/player_deck.png" id="2_1l36n"]
+[sub_resource type="GDScript" id="GDScript_xxtie"]
+script/source = "extends Control
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	pass
+"
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -10,22 +21,4 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_huh0m")
-
-[node name="PlayerDeck" type="TextureProgressBar" parent="."]
-layout_mode = 1
-anchors_preset = 9
-anchor_bottom = 1.0
-offset_right = 1.0
-grow_vertical = 2
-max_value = 1000.0
-step = 5.0
-value = 10.0
-fill_mode = 3
-texture_progress = ExtResource("2_1l36n")
-
-[node name="Deck Size Placeholder" type="Timer" parent="."]
-wait_time = 0.053
-autostart = true
-
-[connection signal="timeout" from="Deck Size Placeholder" to="." method="_on_deck_size_placeholder_timeout"]
+script = SubResource("GDScript_xxtie")
