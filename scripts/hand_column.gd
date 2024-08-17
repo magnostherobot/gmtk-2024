@@ -8,11 +8,17 @@ signal card_unhovered(rank: int)
 @export var rank: int = 1
 @export var faceup: bool = true
 
+var selected = false
+
 func select() -> void:
-	$Visual.translate(Vector2(0, -20))
+	if not selected:
+		$Visual.translate(Vector2(0, -20))
+		selected = true
 	
 func unselect() -> void:
-	$Visual.translate(Vector2(0, 20))
+	if selected:
+		$Visual.translate(Vector2(0, 20))
+		selected = false
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:

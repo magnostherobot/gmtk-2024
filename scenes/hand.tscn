@@ -1,7 +1,10 @@
-[gd_scene load_steps=3 format=3 uid="uid://bfvp6uoec3dxw"]
+[gd_scene load_steps=4 format=3 uid="uid://bfvp6uoec3dxw"]
 
 [ext_resource type="Script" path="res://scripts/hand.gd" id="1_7kn7n"]
 [ext_resource type="PackedScene" uid="uid://17hxhv2kfbmb" path="res://scenes/hand-column.tscn" id="1_bq2wk"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_o8th8"]
+size = Vector2(539.789, 23.1268)
 
 [node name="Hand" type="Node2D"]
 script = ExtResource("1_7kn7n")
@@ -45,6 +48,13 @@ position = Vector2(210, 0)
 count = 8
 rank = 8
 
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(1, -15)
+scale = Vector2(1.02633, 9.67487)
+shape = SubResource("RectangleShape2D_o8th8")
+
 [connection signal="card_hovered" from="HandColumn1" to="." method="_on_card_hovered"]
 [connection signal="card_unhovered" from="HandColumn1" to="." method="_on_card_unhovered"]
 [connection signal="card_hovered" from="HandColumn2" to="." method="_on_card_hovered"]
@@ -61,3 +71,5 @@ rank = 8
 [connection signal="card_unhovered" from="HandColumn7" to="." method="_on_card_unhovered"]
 [connection signal="card_hovered" from="HandColumn8" to="." method="_on_card_hovered"]
 [connection signal="card_unhovered" from="HandColumn8" to="." method="_on_card_unhovered"]
+[connection signal="input_event" from="Area2D" to="." method="_on_hand_input"]
+[connection signal="mouse_exited" from="Area2D" to="." method="_on_mouse_exit"]
