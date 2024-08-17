@@ -1,7 +1,6 @@
 [gd_scene load_steps=10 format=3 uid="uid://d4jsgbnefaos0"]
 
 [ext_resource type="PackedScene" uid="uid://bfvp6uoec3dxw" path="res://scenes/hand.tscn" id="1_wtpr2"]
-[ext_resource type="PackedScene" uid="uid://17hxhv2kfbmb" path="res://scenes/hand-column.tscn" id="2_n1frt"]
 [ext_resource type="PackedScene" uid="uid://c8747s5dmbype" path="res://scenes/deck.tscn" id="3_77w5e"]
 [ext_resource type="PackedScene" uid="uid://dpr1gbf1acv8h" path="res://scenes/pile.tscn" id="4_2ulhs"]
 [ext_resource type="Script" path="res://scripts/draw_button.gd" id="4_g8p6j"]
@@ -9,6 +8,7 @@
 [ext_resource type="Script" path="res://scripts/manager.gd" id="7_mp5rb"]
 [ext_resource type="Script" path="res://scripts/pile_button.gd" id="7_wmo5i"]
 [ext_resource type="PackedScene" uid="uid://ce8amhnue1moi" path="res://scenes/win_pile.tscn" id="8_xmb16"]
+[ext_resource type="PackedScene" uid="uid://ck6qk0ej0g33d" path="res://scenes/opponent_hand.tscn" id="9_bf6rh"]
 
 [node name="Root" type="Node2D"]
 
@@ -17,11 +17,6 @@
 [node name="PlayerHand" parent="." instance=ExtResource("1_wtpr2")]
 position = Vector2(-74, 220)
 counts = [7, 1, 1, 1, 4, 0, 3, 1]
-
-[node name="OpponentHand" parent="." instance=ExtResource("2_n1frt")]
-position = Vector2(301, 220)
-count = 3
-faceup = false
 
 [node name="PlayerDeck" parent="." instance=ExtResource("3_77w5e")]
 visible = true
@@ -89,10 +84,11 @@ offset_bottom = -219.0
 scale = Vector2(2.47872, 2.27922)
 text = "pass"
 
-[node name="Manager" type="Node2D" parent="." node_paths=PackedStringArray("player_hand", "player_deck", "opponent_deck", "pile", "win_pile")]
+[node name="Manager" type="Node2D" parent="." node_paths=PackedStringArray("player_hand", "opponent_hand", "player_deck", "opponent_deck", "pile", "win_pile")]
 z_index = -2
 script = ExtResource("7_mp5rb")
 player_hand = NodePath("../PlayerHand")
+opponent_hand = NodePath("../OpponentHand")
 player_deck = NodePath("../PlayerDeck")
 opponent_deck = NodePath("../OpponentDeck")
 pile = NodePath("../Pile")
@@ -105,6 +101,10 @@ one_shot = true
 z_index = -2
 position = Vector2(0, -305)
 scale = Vector2(0.5, 0.5)
+
+[node name="OpponentHand" parent="." instance=ExtResource("9_bf6rh")]
+position = Vector2(314, 222)
+counts = Array[int]([1, 1, 1, 1, 1, 1, 0, 0])
 
 [connection signal="set_played" from="PlayerHand" to="Manager" method="_on_player_hand_set_played"]
 [connection signal="pressed" from="UI/DrawButton" to="UI/DrawButton" method="_button_pressed"]

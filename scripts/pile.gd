@@ -22,7 +22,7 @@ func is_beaten_by(min_rank: int, max_rank: int, count: int) -> bool:
 		
 	return max_rank > current_max_rank
 	
-func get_current_play():
+func get_current_play() -> Array[int]:
 	return [current_min_rank, current_max_rank, current_count]
 
 func clear() -> void:
