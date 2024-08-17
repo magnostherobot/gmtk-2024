@@ -1,18 +1,34 @@
 @tool
 extends Node2D
 
+signal card_hovered(rank: int)
+signal card_unhovered(rank: int)
+
 @export var count: int = 0
 @export var rank: int = 1
 
+@export var hand: Node2D
+
+func select() -> void:
+	$Visual.translate(Vector2(0, -20))
+	
+func unselect() -> void:
+	$Visual.translate(Vector2(0, 20))
+
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	pass # Replace with function body.
-
+	pass
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(_delta: float) -> void:
-	$Label.text = str(count)
-	$Card.rank = rank
+	$Visual/Label.text = str(count)
+	$Visual/Card.rank = rank
 	
 	self.visible = count > 0
-	$Label.visible = count != 1
+	$Visual/Label.visible = count != 1
+
+func _on_area_2d_mouse_entered() -> void:
+	card_hovered.emit(rank)
+
+func _on_area_2d_mouse_exited() -> void:
+	card_unhovered.emit(rank)

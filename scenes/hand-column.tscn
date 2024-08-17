@@ -1,20 +1,38 @@
-[gd_scene load_steps=3 format=3 uid="uid://17hxhv2kfbmb"]
+[gd_scene load_steps=4 format=3 uid="uid://17hxhv2kfbmb"]
 
 [ext_resource type="PackedScene" uid="uid://iggek3xckqbc" path="res://scenes/card.tscn" id="1_5jfua"]
 [ext_resource type="Script" path="res://scripts/hand_column.gd" id="1_phker"]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6goy2"]
+size = Vector2(20, 23.1139)
+
 [node name="HandColumn" type="Node2D"]
-visible = false
 script = ExtResource("1_phker")
+count = 2
+rank = 3
 
-[node name="Card" parent="." instance=ExtResource("1_5jfua")]
+[node name="Visual" type="Node2D" parent="."]
 
-[node name="Label" type="Label" parent="."]
+[node name="Card" parent="Visual" instance=ExtResource("1_5jfua")]
+rank = 3
+
+[node name="Label" type="Label" parent="Visual"]
 offset_left = -57.0
 offset_top = 53.0
 offset_right = -16.0
 offset_bottom = 95.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 30
-text = "0"
+text = "2"
 metadata/_edit_use_anchors_ = true
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(0, -15.078)
+rotation = 3.14159
+scale = Vector2(6.71199, 9.6844)
+shape = SubResource("RectangleShape2D_6goy2")
+
+[connection signal="mouse_entered" from="Area2D" to="." method="_on_area_2d_mouse_entered"]
+[connection signal="mouse_exited" from="Area2D" to="." method="_on_area_2d_mouse_exited"]
