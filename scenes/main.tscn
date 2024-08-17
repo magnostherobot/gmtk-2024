@@ -1,9 +1,15 @@
-[gd_scene load_steps=5 format=3 uid="uid://d4jsgbnefaos0"]
+[gd_scene load_steps=8 format=3 uid="uid://d4jsgbnefaos0"]
 
 [ext_resource type="PackedScene" uid="uid://bfvp6uoec3dxw" path="res://scenes/hand.tscn" id="1_wtpr2"]
 [ext_resource type="PackedScene" uid="uid://17hxhv2kfbmb" path="res://scenes/hand-column.tscn" id="2_n1frt"]
 [ext_resource type="PackedScene" uid="uid://c8747s5dmbype" path="res://scenes/deck.tscn" id="3_77w5e"]
 [ext_resource type="Script" path="res://scripts/draw_button.gd" id="4_g8p6j"]
+[ext_resource type="Texture2D" uid="uid://jddeqhhhfk70" path="res://sprites/cards.png" id="5_8omnc"]
+[ext_resource type="Script" path="res://scripts/set_pile.gd" id="6_frlfd"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6cakh"]
+atlas = ExtResource("5_8omnc")
+region = Rect2(0, 0, 134.985, 192)
 
 [node name="Root" type="Node2D"]
 
@@ -31,14 +37,43 @@ scale = Vector2(-0.638, 0.638)
 cards = Array[int]([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
 
 [node name="Button" type="Button" parent="." node_paths=PackedStringArray("deck", "hand")]
-offset_left = -49.0
-offset_top = -173.0
-offset_right = -1.0
-offset_bottom = -142.0
+offset_left = -562.0
+offset_top = -317.0
+offset_right = -514.0
+offset_bottom = -286.0
 scale = Vector2(2.1503, 1.89191)
 text = "draw"
 script = ExtResource("4_g8p6j")
 deck = NodePath("../PlayerDeck")
 hand = NodePath("../PlayerHand")
 
+[node name="SetPile" type="CPUParticles2D" parent="."]
+position = Vector2(0, 144)
+emitting = false
+amount = 100
+explosiveness = 0.9
+randomness = 0.15
+texture = SubResource("AtlasTexture_6cakh")
+emission_shape = 3
+emission_rect_extents = Vector2(300, 100)
+direction = Vector2(0, -1)
+spread = 5.0
+gravity = Vector2(0, 0)
+initial_velocity_min = 800.0
+initial_velocity_max = 800.0
+angular_velocity_min = -10.0
+angular_velocity_max = 10.0
+linear_accel_min = -2000.0
+linear_accel_max = -2000.0
+radial_accel_min = -100.0
+radial_accel_max = -100.0
+scale_amount_min = 0.5
+scale_amount_max = 0.5
+script = ExtResource("6_frlfd")
+
+[node name="Timer" type="Timer" parent="SetPile"]
+wait_time = 0.5
+one_shot = true
+
 [connection signal="pressed" from="Button" to="Button" method="_button_pressed"]
+[connection signal="timeout" from="SetPile/Timer" to="SetPile" method="_on_timer_timeout"]

@@ -5,6 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://bnn5bq6ciiald" path="res://textures/playerdeck-bottom.png" id="3_ijg0r"]
 
 [node name="Deck" type="Node2D"]
+visible = false
 script = ExtResource("1_buain")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
