@@ -2,9 +2,9 @@
 extends Node2D
 
 # last card in array is top of deck
-@export var cards = []
+@export var cards: Array[int] = []
 
-func draw() -> int:
+func draw_card() -> int:
 	return cards.pop_back()
 	
 func add_cards(new_cards: Array):
@@ -13,7 +13,6 @@ func add_cards(new_cards: Array):
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	pass
-
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:

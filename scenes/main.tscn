@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://d4jsgbnefaos0"]
+[gd_scene load_steps=5 format=3 uid="uid://d4jsgbnefaos0"]
 
 [ext_resource type="PackedScene" uid="uid://bfvp6uoec3dxw" path="res://scenes/hand.tscn" id="1_wtpr2"]
 [ext_resource type="PackedScene" uid="uid://17hxhv2kfbmb" path="res://scenes/hand-column.tscn" id="2_n1frt"]
 [ext_resource type="PackedScene" uid="uid://c8747s5dmbype" path="res://scenes/deck.tscn" id="3_77w5e"]
+[ext_resource type="Script" path="res://scripts/draw_button.gd" id="4_g8p6j"]
 
 [node name="Root" type="Node2D"]
 
@@ -21,10 +22,23 @@ faceup = false
 z_index = -1
 position = Vector2(-460, 540)
 scale = Vector2(0.63778, 0.63778)
-cards = [1, 2, 3, null, null, null, null, null, null]
+cards = Array[int]([1, 2, 3, 4])
 
 [node name="OpponentDeck" parent="." instance=ExtResource("3_77w5e")]
 z_index = -1
 position = Vector2(460, 540)
 scale = Vector2(-0.638, 0.638)
-cards = [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+cards = Array[int]([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
+
+[node name="Button" type="Button" parent="." node_paths=PackedStringArray("deck", "hand")]
+offset_left = -49.0
+offset_top = -173.0
+offset_right = -1.0
+offset_bottom = -142.0
+scale = Vector2(2.1503, 1.89191)
+text = "draw"
+script = ExtResource("4_g8p6j")
+deck = NodePath("../PlayerDeck")
+hand = NodePath("../PlayerHand")
+
+[connection signal="pressed" from="Button" to="Button" method="_button_pressed"]
