@@ -2,14 +2,14 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="97.922775mm"
-   height="291.24341mm"
-   viewBox="0 0 97.922775 291.24341"
+   width="35.419476mm"
+   height="189.61578mm"
+   viewBox="0 0 35.419475 189.61579"
    version="1.1"
    id="svg1"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
    sodipodi:docname="playerdeck.svg"
-   inkscape:export-filename="playerdeck.png"
+   inkscape:export-filename="..\GitHub\gmtk-2024\textures\playerdeck.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -28,94 +28,116 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showguides="true"
-     inkscape:zoom="0.36213173"
-     inkscape:cx="-440.44745"
-     inkscape:cy="156.02057"
+     inkscape:zoom="1"
+     inkscape:cx="-259"
+     inkscape:cy="259.5"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1">
+     inkscape:current-layer="layer2">
     <sodipodi:guide
-       position="51.636472,306.5952"
+       position="22.366414,345.79254"
        orientation="0,-1"
        id="guide12"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="105.518,303.97596"
+       position="76.247942,343.1733"
        orientation="0,-1"
        id="guide13"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="199.06234,5.7566075"
+       position="169.79228,44.953939"
        orientation="0,-1"
        id="guide14"
        inkscape:locked="false" />
   </sodipodi:namedview>
   <defs
      id="defs1">
-    <pattern
-       inkscape:collect="always"
-       xlink:href="#ap105"
-       preserveAspectRatio="xMidYMid"
-       id="pattern54"
-       patternTransform="matrix(0,0.185,-0.185,0,20.71708,452.25957)"
-       x="35"
-       y="51" />
-    <pattern
-       patternUnits="userSpaceOnUse"
-       preserveAspectRatio="xMidYMid"
-       width="377.87529"
-       height="377.95346"
-       patternTransform="translate(20.71708,452.25957) scale(0.2)"
-       id="ap105"
-       inkscape:collect="always"
-       inkscape:isstock="true"
-       inkscape:label="ap105">
+    <linearGradient
+       id="linearGradient45"
+       inkscape:swatch="gradient">
+      <stop
+         style="stop-color:#887ac0;stop-opacity:1;"
+         offset="0"
+         id="stop46" />
+      <stop
+         style="stop-color:#887ac0;stop-opacity:0;"
+         offset="1"
+         id="stop47" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1-1"
+       inkscape:swatch="gradient">
+      <stop
+         style="stop-color:#c72b2b;stop-opacity:1;"
+         offset="0"
+         id="stop5" />
+      <stop
+         style="stop-color:#966666;stop-opacity:0;"
+         offset="1"
+         id="stop6" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1"
+       inkscape:swatch="gradient">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop3" />
+      <stop
+         style="stop-color:#966666;stop-opacity:0;"
+         offset="1"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1-2"
+       inkscape:swatch="gradient">
+      <stop
+         style="stop-color:#2f2bc7;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+      <stop
+         style="stop-color:#966666;stop-opacity:0;"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath54">
       <path
-         id="path228"
-         style="color:#000000;fill:#f32500;stroke-width:4.21429;paint-order:markers fill stroke"
-         d="M 18.012514,0.00328819 V 18.017953 H 0 v 9.608428 H 13.267106 L 0.00435402,40.889121 1.96535e-4,40.885321 V 55.186885 L 0.00435402,55.190665 27.573022,27.621997 h 0.04573 v -0.04347 L 55.187418,0.00986457 55.180615,0.00230551 H 40.868164 L 40.879124,0.01364409 27.618542,13.274192 V 0.00275906 Z m 67.818618,0 L 0,85.836574 V 292.10611 l 85.831132,85.83118 -0.01512,0.0151 H 292.00933 l -0.0197,-0.0227 85.8834,-85.88338 0.002,0.002 V 85.887749 l -0.002,0.0021 L 291.98318,0 Z m 236.860998,0 -0.007,0.00755905 27.56649,27.56647576 v 0.04611 h 0.0457 l 27.56867,27.568668 0.009,-0.0076 V 40.883036 l -0.009,0.0076 -13.26275,-13.26274 h 13.27147 v -9.60839 H 359.86677 V 0.0047622 h -9.61495 V 13.276195 l -13.2604,-13.26058555 0.011,-0.01133858 z M 95.071502,5.0731465 H 282.74272 L 372.814,95.144455 V 282.80042 l -90.07347,90.07566 H 95.07586 L 5.0023861,282.80257 V 95.142263 Z M 188.9082,22.26686 c -92.009795,0 -166.703434,74.693658 -166.703434,166.70342 0,92.0098 74.693639,166.71213 166.703434,166.71213 92.00979,0 166.70996,-74.70233 166.70996,-166.71213 0,-92.009762 -74.70017,-166.70342 -166.70996,-166.70342 z m 0,10.11583 c 86.54364,0 156.59412,70.04393 156.59412,156.58759 0,86.54366 -70.05048,156.59626 -156.59412,156.59626 -86.54365,0 -156.596305,-70.0526 -156.596305,-156.59626 0,-86.54366 70.052655,-156.58759 156.596305,-156.58759 z m 0,24.49576 c -72.89434,0 -132.091791,59.19748 -132.091791,132.09183 0,72.89435 59.197451,132.1005 132.091791,132.1005 72.89433,0 132.09832,-59.20615 132.09832,-132.1005 0,-72.89435 -59.20399,-132.09183 -132.09832,-132.09183 z m -5.05465,10.224745 v 0.0038 243.729755 C 125.37912,308.45933 77.591248,265.03082 68.493729,208.55515 h 87.653941 l -0.074,67.38743 C 134.78182,267.87979 117.29799,252.87434 106.187,233.51266 h 25.47362 v 13.95091 h 10.11586 V 223.39679 H 89.378751 l 3.316774,7.178 c 12.795735,27.68716 37.163225,48.88097 66.975815,57.7725 l 6.49417,1.93383 0.11543,-91.8418 H 67.285062 c -0.239546,-3.1262 -0.361512,-6.28528 -0.361512,-9.47342 0,-4.13775 0.208517,-8.2255 0.609782,-12.25663 h 98.747618 l -0.11543,-91.841804 -6.49417,1.936025 c -29.8126,8.891528 -54.18008,30.085379 -66.975821,57.772499 l -3.316778,7.17796 h 52.397689 v -24.06674 h -10.11585 v 13.95091 h -25.4671 c 11.11125,-19.35813 28.59097,-34.36165 49.88015,-42.423379 l 0.074,67.378699 H 68.972859 C 79.167791,111.48071 126.34323,69.441664 183.85356,67.103195 Z m 10.10713,0.0038 c 57.51126,2.337563 104.6856,44.376865 114.8807,99.490275 h -88.19405 l 0.0827,-67.37869 c 21.28811,8.062 38.76061,23.06589 49.87143,42.42331 h -25.46708 v -13.95085 h -10.11584 v 24.06679 h 52.39767 l -3.31678,-7.17804 c -12.79573,-27.6906 -37.1632,-48.885166 -66.9758,-57.776694 l -6.49418,-1.936025 -0.11543,91.841799 h 99.769 c 0.40124,4.03113 0.60761,8.11892 0.60761,12.25663 0,3.18815 -0.122,6.34723 -0.36151,9.47343 H 210.51407 l 0.11543,91.8418 6.49417,-1.93384 c 29.8126,-8.89152 54.18007,-30.08534 66.97581,-57.77249 l 3.31677,-7.17801 h -52.39767 v 24.06679 h 10.11585 v -13.95092 h 25.47364 c -11.11059,19.36097 -28.58718,34.36694 -49.87798,42.42992 l -0.0827,-67.38742 h 88.67534 c -9.09758,56.47642 -56.8866,99.90515 -115.362,102.28214 z m 183.91234,255.648755 -3.57376,3.57377 -23.99272,23.99274 h -0.0544 v 0.0544 l -27.56213,27.55997 0.0151,0.0151 h 14.30374 l -0.0132,-0.0113 13.25622,-13.2562 v 13.26924 h 9.61494 V 359.9323 h 18.00817 v -9.60624 h -13.26275 l 13.26056,-13.26058 0.002,0.002 V 322.75966 Z M 0,322.75951 v 14.30593 l 13.271463,13.25631 -13.271417645669,0.002 v 9.60839 L 18.012518,359.93014 v 18.02121 h 9.60624 v -13.28013 l 13.267105,13.26709 -0.01323,0.0113 H 55.16766 l 0.01965,-0.0227 z"
-         sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccssssssssssssssscccccccccccccccccsccccccccccccccscccccccccccsccccscccccccccccccccccccccccccccccccccccccccccccccccccc" />
-    </pattern>
-    <pattern
-       inkscape:collect="always"
-       xlink:href="#Strips2_1"
-       preserveAspectRatio="xMidYMid"
-       id="pattern39"
-       patternTransform="matrix(1.1040654,1.226189,-1.226189,1.1040654,0,0)"
-       x="3"
-       y="0" />
-    <pattern
-       inkscape:collect="always"
-       xlink:href="#Strips2_1"
-       preserveAspectRatio="xMidYMid"
-       id="pattern38"
-       patternTransform="matrix(0,2,-2,0,0,0)"
-       x="0"
-       y="0" />
-    <pattern
-       inkscape:collect="always"
-       patternUnits="userSpaceOnUse"
-       width="1.5"
-       height="1"
-       patternTransform="translate(0,0) scale(2,2)"
-       preserveAspectRatio="xMidYMid"
-       id="Strips2_1"
-       style="fill:#000000"
-       inkscape:stockid="Stripes 12 (2:1)"
-       inkscape:isstock="true"
-       inkscape:label="Stripes 12 (2:1)">
+         id="path54"
+         style="stroke-width:0.0999999;stroke-linecap:square;paint-order:markers fill stroke;stop-color:#000000"
+         d="m 1691.1994,-792.32001 h 1634.8919 v 92.82806 H 1691.1994 Z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5">
+      <path
+         id="path5"
+         style="stroke-width:0.1;stroke-linecap:square;paint-order:markers fill stroke;stop-color:#000000"
+         d="M 438.25066,553.76374 H 1298.1212 V 755.15928 H 438.25066 Z"
+         sodipodi:nodetypes="ccccc" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath15">
       <rect
-   style="stroke:none"
-   x="0"
-   y="-0.5"
-   width="1"
-   height="2"
-   id="rect197" />
-
-    </pattern>
+         style="fill:none;stroke:#000000;stroke-linecap:butt;stroke-linejoin:bevel;paint-order:stroke markers fill;stop-color:#000000"
+         id="rect15-7"
+         width="45.034248"
+         height="38.955639"
+         x="262.48285"
+         y="121.00073" />
+    </clipPath>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-38.584414 : 83.420943 : 1"
+       inkscape:vp_y="0 : 1098.4098 : 0"
+       inkscape:vp_z="225.74788 : 45.197921 : 1"
+       inkscape:persp3d-origin="97.688887 : -9.1733643 : 1"
+       id="perspective2" />
     <clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath55">
@@ -127,35 +149,4714 @@
          x="0.37417734"
          y="-0.37417734" />
     </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath58">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:4.19608;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1"
+         id="rect59"
+         width="98.037323"
+         height="85.19754"
+         x="-0.075658947"
+         y="0.64523202"
+         ry="0"
+         transform="matrix(1,0,0.60322274,0.79757277,0,0)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath63">
+      <rect
+         style="fill:none;fill-opacity:1;stroke:none;stroke-width:4.19608;stroke-linejoin:bevel"
+         id="rect63"
+         width="97.889801"
+         height="557.36157"
+         x="-0.00093641173"
+         y="0.58730364"
+         transform="matrix(1,0,0.60322274,0.79757277,0,0)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath64">
+      <rect
+         style="fill:none;fill-opacity:1;stroke:none;stroke-width:3.81647;stroke-linejoin:bevel"
+         id="rect64"
+         width="155.20049"
+         height="290.81494"
+         x="-0.0014846446"
+         y="0.30643782"
+         transform="matrix(0.83600895,0.54871581,0,1,0,0)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath65">
+      <rect
+         style="fill:none;fill-opacity:1;stroke:none;stroke-width:3.03099;stroke-linejoin:bevel"
+         id="rect65"
+         width="97.889801"
+         height="290.81494"
+         x="-0.00093641173"
+         y="0.30643782" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath66">
+      <rect
+         style="fill:none;fill-opacity:1;stroke:none;stroke-width:3.03099;stroke-linejoin:bevel"
+         id="rect67"
+         width="97.848328"
+         height="290.72217"
+         x="0.37607843"
+         y="2.7894042" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath67">
+      <rect
+         style="fill:none;fill-opacity:1;stroke:none;stroke-width:4.19608;stroke-linejoin:bevel"
+         id="rect68"
+         width="97.848328"
+         height="557.18384"
+         x="0.0019010868"
+         y="0.58183825"
+         transform="matrix(1,0,0.60322274,0.79757277,0,0)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath68">
+      <rect
+         style="fill:none;fill-opacity:1;stroke:none;stroke-width:3.82888;stroke-linejoin:bevel"
+         id="rect69"
+         width="155.51868"
+         height="291.89334"
+         x="-0.17483556"
+         y="0.29913169"
+         transform="matrix(0.83600895,0.54871581,0,1,0,0)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath69">
+      <rect
+         style="fill:none;fill-opacity:1;stroke:none;stroke-width:3.03099;stroke-linejoin:bevel"
+         id="rect70"
+         width="97.848328"
+         height="290.72217"
+         x="0.0019010868"
+         y="0.30358613" />
+    </clipPath>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6"
+       preserveAspectRatio="none"
+       id="pattern2"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-6"
+       preserveAspectRatio="none"
+       id="pattern2-2"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-6"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-5" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-5"
+       preserveAspectRatio="none"
+       id="pattern2-29"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-5"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-4" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-7"
+       preserveAspectRatio="none"
+       id="pattern2-8"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-7"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-46" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-9"
+       preserveAspectRatio="none"
+       id="pattern2-5"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-9"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-50" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-76"
+       preserveAspectRatio="none"
+       id="pattern2-1"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-76"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-460" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-8"
+       preserveAspectRatio="none"
+       id="pattern2-9"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-8"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-6" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-53"
+       preserveAspectRatio="none"
+       id="pattern2-94"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-53"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-58" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-0"
+       preserveAspectRatio="none"
+       id="pattern2-3"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-0"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-49" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-68"
+       preserveAspectRatio="none"
+       id="pattern2-27"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-68"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-3" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-2"
+       preserveAspectRatio="none"
+       id="pattern2-17"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-2"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-9" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-28"
+       preserveAspectRatio="none"
+       id="pattern2-26"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-28"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-0" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-56"
+       preserveAspectRatio="none"
+       id="pattern2-59"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-56"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-2" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-3"
+       preserveAspectRatio="none"
+       id="pattern2-0"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-3"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-491" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-32"
+       preserveAspectRatio="none"
+       id="pattern2-05"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-32"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-43" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-23"
+       preserveAspectRatio="none"
+       id="pattern2-4"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-23"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-62" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-1"
+       preserveAspectRatio="none"
+       id="pattern2-6"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-1"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-98" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-85"
+       preserveAspectRatio="none"
+       id="pattern2-36"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-85"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-984" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-91"
+       preserveAspectRatio="none"
+       id="pattern2-49"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-91"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-23" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-689"
+       preserveAspectRatio="none"
+       id="pattern2-90"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-689"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-983" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-39"
+       preserveAspectRatio="none"
+       id="pattern2-276"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-39"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-1" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-25"
+       preserveAspectRatio="none"
+       id="pattern2-01"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-25"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-468" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-67"
+       preserveAspectRatio="none"
+       id="pattern2-37"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-67"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-10" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-88"
+       preserveAspectRatio="none"
+       id="pattern2-02"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-88"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-496" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-10"
+       preserveAspectRatio="none"
+       id="pattern2-7"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-10"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-01" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-15"
+       preserveAspectRatio="none"
+       id="pattern2-88"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-15"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-7" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-71"
+       preserveAspectRatio="none"
+       id="pattern2-72"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-71"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-31" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-4"
+       preserveAspectRatio="none"
+       id="pattern2-60"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-4"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-72" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-12"
+       preserveAspectRatio="none"
+       id="pattern2-08"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-12"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-25" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-51"
+       preserveAspectRatio="none"
+       id="pattern2-34"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-51"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-56" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-05"
+       preserveAspectRatio="none"
+       id="pattern2-03"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-05"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-74" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-14"
+       preserveAspectRatio="none"
+       id="pattern2-013"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-14"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-00" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-674"
+       preserveAspectRatio="none"
+       id="pattern2-61"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-674"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-99" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-19"
+       preserveAspectRatio="none"
+       id="pattern2-84"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-19"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-03" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-01"
+       preserveAspectRatio="none"
+       id="pattern2-367"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-01"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-77" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-84"
+       preserveAspectRatio="none"
+       id="pattern2-99"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-84"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-53" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-92"
+       preserveAspectRatio="none"
+       id="pattern2-63"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-92"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-63" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-50"
+       preserveAspectRatio="none"
+       id="pattern2-68"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-50"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-22" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-54"
+       preserveAspectRatio="none"
+       id="pattern2-018"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-54"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-24" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-64"
+       preserveAspectRatio="none"
+       id="pattern2-24"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-64"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-8" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-79"
+       preserveAspectRatio="none"
+       id="pattern2-69"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-79"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-78" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-65"
+       preserveAspectRatio="none"
+       id="pattern2-64"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-65"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-59" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-60"
+       preserveAspectRatio="none"
+       id="pattern2-44"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-60"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-16" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-72"
+       preserveAspectRatio="none"
+       id="pattern2-50"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-72"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-44" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-57"
+       preserveAspectRatio="none"
+       id="pattern2-58"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-57"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-83" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-96"
+       preserveAspectRatio="none"
+       id="pattern2-74"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-96"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-64" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-61"
+       preserveAspectRatio="none"
+       id="pattern2-76"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-61"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-84" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-657"
+       preserveAspectRatio="none"
+       id="pattern2-73"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-657"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-47" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-13"
+       preserveAspectRatio="none"
+       id="pattern2-04"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-13"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-86" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-6741"
+       preserveAspectRatio="none"
+       id="pattern2-21"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-6741"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-843" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-967"
+       preserveAspectRatio="none"
+       id="pattern2-09"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-967"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-32" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-960"
+       preserveAspectRatio="none"
+       id="pattern2-10"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-960"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-436" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-41"
+       preserveAspectRatio="none"
+       id="pattern2-54"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-41"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-07" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-051"
+       preserveAspectRatio="none"
+       id="pattern2-18"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-051"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-008" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-122"
+       preserveAspectRatio="none"
+       id="pattern2-636"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-122"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-73" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-799"
+       preserveAspectRatio="none"
+       id="pattern2-46"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-799"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-93" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-69"
+       preserveAspectRatio="none"
+       id="pattern2-95"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-69"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-37" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-37"
+       preserveAspectRatio="none"
+       id="pattern2-43"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-37"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-239" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-70"
+       preserveAspectRatio="none"
+       id="pattern2-012"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-70"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-20" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-44"
+       preserveAspectRatio="none"
+       id="pattern2-465"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-44"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-87" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-853"
+       preserveAspectRatio="none"
+       id="pattern2-616"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-853"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-26" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-678"
+       preserveAspectRatio="none"
+       id="pattern2-907"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-678"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-05" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-910"
+       preserveAspectRatio="none"
+       id="pattern2-170"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-910"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-94" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-66"
+       preserveAspectRatio="none"
+       id="pattern2-107"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-66"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-729" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-654"
+       preserveAspectRatio="none"
+       id="pattern2-92"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-654"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-67" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-58"
+       preserveAspectRatio="none"
+       id="pattern2-91"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-58"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-92" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-49"
+       preserveAspectRatio="none"
+       id="pattern2-33"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-49"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-81" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-80"
+       preserveAspectRatio="none"
+       id="pattern2-091"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-80"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-942" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-24"
+       preserveAspectRatio="none"
+       id="pattern2-89"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-24"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-69" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-30"
+       preserveAspectRatio="none"
+       id="pattern2-468"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-30"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-66" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-77"
+       preserveAspectRatio="none"
+       id="pattern2-881"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-77"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-96" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-519"
+       preserveAspectRatio="none"
+       id="pattern2-035"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-519"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-492" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-95"
+       preserveAspectRatio="none"
+       id="pattern2-47"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-95"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-71" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-128"
+       preserveAspectRatio="none"
+       id="pattern2-06"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-128"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-14" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-925"
+       preserveAspectRatio="none"
+       id="pattern2-52"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-925"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-947" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-17"
+       preserveAspectRatio="none"
+       id="pattern2-15"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-17"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-100" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-03"
+       preserveAspectRatio="none"
+       id="pattern2-12"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-03"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-203" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-548"
+       preserveAspectRatio="none"
+       id="pattern2-38"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-548"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-35" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-053"
+       preserveAspectRatio="none"
+       id="pattern2-48"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-053"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-925" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-610"
+       preserveAspectRatio="none"
+       id="pattern2-81"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-610"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-36" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-87"
+       preserveAspectRatio="none"
+       id="pattern2-437"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-87"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-08" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-40"
+       preserveAspectRatio="none"
+       id="pattern2-643"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-40"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-960" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-55"
+       preserveAspectRatio="none"
+       id="pattern2-30"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-55"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-031" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-75"
+       preserveAspectRatio="none"
+       id="pattern2-884"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-75"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-57" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-18"
+       preserveAspectRatio="none"
+       id="pattern2-41"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-18"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-580" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-34"
+       preserveAspectRatio="none"
+       id="pattern2-11"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-34"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-830" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-43"
+       preserveAspectRatio="none"
+       id="pattern2-340"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-43"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-229" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-434"
+       preserveAspectRatio="none"
+       id="pattern2-500"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-434"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-55" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-38"
+       preserveAspectRatio="none"
+       id="pattern2-70"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-38"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-162" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-1287"
+       preserveAspectRatio="none"
+       id="pattern2-67"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-1287"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-39" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-538"
+       preserveAspectRatio="none"
+       id="pattern2-83"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-538"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-2392" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-81"
+       preserveAspectRatio="none"
+       id="pattern2-703"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-81"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-391" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-86"
+       preserveAspectRatio="none"
+       id="pattern2-87"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-86"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-48" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-105"
+       preserveAspectRatio="none"
+       id="pattern2-436"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-105"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-489" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-758"
+       preserveAspectRatio="none"
+       id="pattern2-75"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-758"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-02" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-546"
+       preserveAspectRatio="none"
+       id="pattern2-102"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-546"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-80" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-818"
+       preserveAspectRatio="none"
+       id="pattern2-71"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-818"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-256" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-31"
+       preserveAspectRatio="none"
+       id="pattern2-093"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-31"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-13" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-52"
+       preserveAspectRatio="none"
+       id="pattern2-53"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-52"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-777" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hollow Circle-6-26"
+       preserveAspectRatio="none"
+       id="pattern2-189"
+       patternTransform="matrix(0.222,0,0,0.275,-15,-15)"
+       x="-5.5"
+       y="14" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30"
+       height="30"
+       patternTransform="translate(-15,-15)"
+       preserveAspectRatio="xMidYMid"
+       id="hollow Circle-6-26"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       inkscape:label="Hollow circle"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
+         d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
+         id="path12-2-038" />
+    </pattern>
   </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     transform="translate(-29.270059,-39.197333)">
+    <g
+       id="g2-29"
+       transform="translate(-0.10959397,164.73929)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-44"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-01);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-73"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-75"
+       transform="translate(-0.10959397,163.34313)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-70"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-37);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-48"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-13"
+       transform="translate(-0.10959397,161.94697)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-20"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-02);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-22"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-070"
+       transform="translate(-0.10959397,160.55081)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-030"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-7);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-36"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-95"
+       transform="translate(-0.10959397,159.15466)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-09"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-88);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-16"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-6"
+       transform="translate(-0.10959397,157.7585)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-88"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-72);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-69"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-3"
+       transform="translate(-0.10959397,156.36234)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-95"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-60);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-45"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-56"
+       transform="translate(-0.10959397,154.96618)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-72"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-08);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-96"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-28"
+       transform="translate(-0.10959397,153.57002)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-71"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-276);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-84"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-35"
+       transform="translate(-0.10959397,152.17387)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-55"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-03);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-667"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-96"
+       transform="translate(-0.10959397,150.77771)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-3"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-013);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-106"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-352"
+       transform="translate(-0.10959397,149.38155)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-522"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-61);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-94"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-01"
+       transform="translate(-0.10959397,147.98539)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-96"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-84);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-57"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-15"
+       transform="translate(-0.10959397,146.58924)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-006"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-367);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-21"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-37"
+       transform="translate(-0.10959397,145.19308)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-28"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-99);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-00"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-502"
+       transform="translate(-0.10959397,143.79692)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-38"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-63);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-99"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-62"
+       transform="translate(-0.10959397,142.40076)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-61"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-018);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-64"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-05"
+       transform="translate(-0.10959397,141.0046)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-632"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-34);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-52"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-8"
+       transform="translate(-0.10959397,139.60845)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-07"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-29);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-6"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-5"
+       transform="translate(-0.10959397,138.21229)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-6"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-8);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-4"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-57"
+       transform="translate(-0.10959397,136.81613)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-02"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-5);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-9"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-52"
+       transform="translate(-0.10959397,135.41997)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-8"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-1);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-1"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-0"
+       transform="translate(-0.10959397,134.02382)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-13"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-9);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-3"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-9"
+       transform="translate(-0.10959397,132.62766)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-9"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-94);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-37"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-7"
+       transform="translate(-0.10959397,131.2315)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-00"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-3);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-76"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-1"
+       transform="translate(-0.10959397,129.83534)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-03"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-27);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-0"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2"
+       transform="translate(-0.10959397,128.43919)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-1"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-2);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-7"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-2"
+       transform="translate(-0.10959397,127.04303)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-06"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-26);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-47"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-07"
+       transform="translate(-0.10959397,125.64687)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-2"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-59);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-03"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-22"
+       transform="translate(-0.10959397,124.25071)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-5"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-0);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-8"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-02"
+       transform="translate(-0.10959397,122.85455)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-63"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-05);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-14"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-47"
+       transform="translate(-0.10959397,121.4584)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-17"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-4);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-10"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-14"
+       transform="translate(-0.10959397,120.06224)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-22"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-6);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-66"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-50"
+       transform="translate(-0.10959397,118.66608)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-7"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-36);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-5"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-25"
+       transform="translate(-0.10959397,117.26992)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-52"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-49);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-78"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-229"
+       transform="translate(-0.10959397,115.87377)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-91"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-90);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-89"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-4"
+       transform="translate(-0.10959397,114.47761)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-4"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-17);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-2"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-750"
+       transform="translate(-0.10959397,113.08145)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-35"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-15);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-67"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-72"
+       transform="translate(-0.10959397,111.68529)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-86"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-12);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-762"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-21"
+       transform="translate(-0.10959397,110.28913)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-024"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-38);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-83"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-65"
+       transform="translate(-0.10959397,108.89298)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-34"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-48);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-85"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-16"
+       transform="translate(-0.10959397,107.49682)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-58"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-81);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-940"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-181"
+       transform="translate(-0.10959397,106.10066)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-29"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-437);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-166"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-962"
+       transform="translate(-0.10959397,104.7045)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-073"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-643);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-518"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-677"
+       transform="translate(-0.10959397,103.30835)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-643"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-30);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-789"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-73"
+       transform="translate(-0.10959397,101.91219)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-83"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-884);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-75"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-613"
+       transform="translate(-0.10959397,100.51603)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-98"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-41);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-60"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-53"
+       transform="translate(-0.10959397,99.11987)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-84"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-11);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-56"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-10"
+       transform="translate(-0.10959397,97.72371)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-767"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-340);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-352"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-402"
+       transform="translate(-0.10959397,96.32756)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-59"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-500);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-46"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-135"
+       transform="translate(-0.10959397,94.9314)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-695"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-70);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-30"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-619"
+       transform="translate(-0.10959397,93.53524)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-37"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-67);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-53"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-004"
+       transform="translate(-0.10959397,92.13908)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-144"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-83);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-71"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-652"
+       transform="translate(-0.10959397,90.74293)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-26"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-703);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-474"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-052"
+       transform="translate(-0.10959397,89.346771)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-416"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-170);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-25"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-834"
+       transform="translate(-0.10959397,87.950609)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-54"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-907);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-28"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-09"
+       transform="translate(-0.10959397,86.554451)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-64"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-616);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-93"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-03"
+       transform="translate(-0.10959397,85.1583)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-01"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-465);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-65"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-61"
+       transform="translate(-0.10959397,83.762139)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-65"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-012);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-640"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-012"
+       transform="translate(-0.10959397,82.36598)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-87"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-43);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-90"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-472"
+       transform="translate(-0.10959397,80.969819)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-69"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-68);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-768"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-45"
+       transform="translate(-0.10959397,79.57366)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-525"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-92);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-735"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-36"
+       transform="translate(-0.10959397,78.17751)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-04"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-107);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-39"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-04"
+       transform="translate(-0.10959397,76.781351)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-67"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-91);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-992"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-26"
+       transform="translate(-0.10959397,75.38519)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-705"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-33);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-63"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-68"
+       transform="translate(-0.10959397,73.989031)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-701"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-091);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-04"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-00"
+       transform="translate(-0.10959397,72.59288)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-33"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-89);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-488"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-371"
+       transform="translate(-0.10959397,71.196719)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-25"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-468);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-54"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-620"
+       transform="translate(-0.10959397,69.800561)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-155"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-881);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-87"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-40"
+       transform="translate(-0.10959397,68.404399)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-23"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-035);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-38"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-64"
+       transform="translate(-0.10959397,67.008241)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-14"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-47);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-634"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-521"
+       transform="translate(-0.10959397,65.61209)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-141"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-06);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-522"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-39"
+       transform="translate(-0.10959397,64.215929)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-950"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-95);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-293"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-644"
+       transform="translate(-0.10959397,62.81977)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-40"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-189);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-44"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-095"
+       transform="translate(-0.10959397,61.423609)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-580"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-53);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-55"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-6776"
+       transform="translate(-0.10959397,60.027461)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-741"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-093);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-723"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-94"
+       transform="translate(-0.10959397,58.631299)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-78"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-71);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-545"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-70"
+       transform="translate(-0.10959397,57.235141)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-923"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-102);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-380"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-075"
+       transform="translate(-0.10959397,55.83898)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-595"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-75);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-567"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-88"
+       transform="translate(-0.10959397,54.442821)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-130"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-436);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-257"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-727"
+       transform="translate(-0.10959397,53.04667)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-60"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-87);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-163"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-968"
+       transform="translate(-0.10959397,51.650509)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-6321"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-73);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-641"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-98"
+       transform="translate(-0.10959397,50.25435)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-32"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-74);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-07"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-299"
+       transform="translate(-0.10959397,48.858189)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-42"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-58);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-74"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-67"
+       transform="translate(-0.10959397,47.462041)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-62"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-50);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-72"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-83"
+       transform="translate(-0.10959397,46.06588)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-27"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-44);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-480"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-63"
+       transform="translate(-0.10959397,44.669721)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-41"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-64);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-40"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-48"
+       transform="translate(-0.10959397,43.27356)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-76"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-69);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-51"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-141"
+       transform="translate(-0.10959397,29.31199)" />
+    <g
+       id="g1"
+       transform="translate(-0.10959397,41.877409)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-69"
+       transform="translate(-0.10959397,40.481251)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-15"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-76);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-80"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-130"
+       transform="translate(-0.10959397,39.085089)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-762"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-04);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-12"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-84"
+       transform="translate(-0.10959397,37.688931)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-92"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-21);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-29"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-80"
+       transform="translate(-0.10959397,36.292775)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-078"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-09);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-378"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-93"
+       transform="translate(-0.10959397,34.896616)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-703"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-10);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-70"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-488"
+       transform="translate(-0.10959397,33.50046)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-74"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-54);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-698"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-77"
+       transform="translate(-0.10959397,32.104301)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-31"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-18);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-24"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-74"
+       transform="translate(-0.10959397,30.708143)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-880"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-636);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-35"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g3">
+      <rect
+         style="fill:url(#pattern2-46);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-108"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313"
+         transform="translate(-0.10959397,29.31199)" />
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-94"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313"
+         transform="translate(-0.10959397,29.31199)" />
+    </g>
+    <g
+       id="g2-99"
+       transform="translate(-0.10959397,27.915828)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-143"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-52);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-893"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+    <g
+       id="g2-18"
+       transform="translate(-0.10959397,26.51967)">
+      <rect
+         style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-53"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+      <rect
+         style="fill:url(#pattern2-24);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-5-7-0-963"
+         width="34.354477"
+         height="50.331158"
+         x="29.912153"
+         y="13.210163"
+         ry="3.8787313" />
+    </g>
+  </g>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-0.37417734,-2.485818)">
-    <g
-       id="g35"
-       clip-path="url(#clipPath55)">
-      <path
-         d="M 45.816253,49.502637 V 292.86866 l 51.212872,-46.0743 V 3.4283469 Z"
-         style="opacity:1;fill:url(#pattern39);fill-opacity:1;stroke:#000000;stroke-width:2.53566;stroke-linejoin:bevel"
-         id="path35" />
-      <rect
-         style="opacity:1;fill:url(#pattern38);fill-opacity:1;stroke:#000000;stroke-width:2.452;stroke-dasharray:none;stroke-opacity:1"
-         id="rect1"
-         width="75.799828"
-         height="243.63077"
-         x="-29.776285"
-         y="48.726089"
-         ry="0" />
-      <rect
-         style="fill:url(#pattern54);fill-opacity:1;stroke:#000000;stroke-width:3.70061;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1"
-         id="rect35"
-         width="178.13281"
-         height="66.230736"
-         x="-77.48481"
-         y="6.0087957"
-         transform="matrix(1,0,-0.74159398,0.670849,0,0)" />
-    </g>
-  </g>
+     transform="translate(-29.644237,-41.683151)" />
 </svg>
