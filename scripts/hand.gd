@@ -21,14 +21,14 @@ func add_cards(cards: Array):
 	for card in cards:
 		add_card(card)
 		
-func remove_set(min: int, max: int, count: int) -> void:
-	for i in range(min, max + 1):
+func remove_set(min_rank: int, max_rank: int, count: int) -> void:
+	for i in range(min_rank, max_rank + 1):
 		counts[i - 1] -= count
 
-func remove_cards(counts: Array[int]) -> Array[int]:
+func remove_cards(removed_counts: Array[int]) -> Array[int]:
 	var result = []
-	for i in range(0, len(counts)):
-		var to_remove = min(self.counts[i], counts[i])
+	for i in range(0, len(removed_counts)):
+		var to_remove = min(self.counts[i], removed_counts[i])
 		self.counts[i] -= to_remove
 		result.push_back(to_remove)
 	return result
@@ -107,12 +107,12 @@ func update_selection(rank: int) -> void:
 		
 		last_hovered = rank
 		
-func suggest_set(min: int, max: int) -> void:
-	var count = counts[max - 1]
-	for i in range(min, max):
+func suggest_set(min_rank: int, max_rank: int) -> void:
+	var count = counts[max_rank - 1]
+	for i in range(min_rank, max_rank):
 		count = min(count, counts[i - 1])
-	print("suggesting set ", count, "x", min, "->", max)
-	set_played.emit(min, max, count)
+	print("suggesting set ", count, "x", min_rank, "->", max_rank)
+	set_played.emit(min_rank, max_rank, count)
 
 func _on_card_hovered(rank: int) -> void:
 	cards_hovered[rank - 1] = true
@@ -136,7 +136,7 @@ func _on_mouse_exit() -> void:
 	selecting = false
 	unselect_all()
 
-func _on_hand_input(viewport: Node, event: InputEvent, shape_idx: int) -> void:
+func _on_hand_input(_viewport: Node, event: InputEvent, _shape_idx: int) -> void:
 	if event is InputEventMouseButton:
 		if event.pressed:
 			_on_mouse_down()
