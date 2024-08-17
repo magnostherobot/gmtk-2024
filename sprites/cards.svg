@@ -28,7 +28,7 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="1.4142136"
-     inkscape:cx="627.55727"
+     inkscape:cx="1014.3447"
      inkscape:cy="106.41957"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
@@ -41,19 +41,19 @@
      id="defs1">
     <pattern
        inkscape:collect="always"
-       xlink:href="#hollow Circle"
-       preserveAspectRatio="xMidYMid"
+       xlink:href="#hollow Circle-6"
+       preserveAspectRatio="none"
        id="pattern2"
-       patternTransform="matrix(0.222,0,0,0.222,-15,-15)"
-       x="6"
-       y="-6" />
+       patternTransform="matrix(0.222,0,0,0.275,238.97615,-27.677663)"
+       x="-5.5"
+       y="14" />
     <pattern
        patternUnits="userSpaceOnUse"
        width="30"
        height="30"
        patternTransform="translate(-15,-15)"
        preserveAspectRatio="xMidYMid"
-       id="hollow Circle"
+       id="hollow Circle-6"
        style="fill:#ffffff"
        x="0"
        y="0"
@@ -63,7 +63,7 @@
       <path
          style="color:#000000;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers fill stroke"
          d="M 15,0 C 6.7749602,0 0,6.7749602 0,15 0,23.22504 6.7749602,30 15,30 23.22504,30 30,23.22504 30,15 30,6.7749602 23.22504,0 15,0 Z m 0,10 c 2.820644,0 5,2.179356 5,5 0,2.820644 -2.179356,5 -5,5 -2.820644,0 -5,-2.179356 -5,-5 0,-2.820644 2.179356,-5 5,-5 z"
-         id="path12" />
+         id="path12-2" />
     </pattern>
   </defs>
   <g
@@ -425,23 +425,22 @@
            y="34.365768">3</tspan></text>
     </g>
     <g
-       id="g10"
-       transform="translate(-8.2640277,-35.79514)">
+       id="g1">
       <rect
          style="fill:#cc79a7;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          id="rect1-5-7"
          width="34.354477"
          height="50.331158"
-         x="292.15234"
-         y="36.327641"
+         x="283.88831"
+         y="0.53250051"
          ry="3.8787313" />
       <rect
          style="fill:url(#pattern2);fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          id="rect1-5-7-0"
          width="34.354477"
          height="50.331158"
-         x="292.15234"
-         y="36.327641"
+         x="283.88831"
+         y="0.53250051"
          ry="3.8787313" />
     </g>
   </g>
