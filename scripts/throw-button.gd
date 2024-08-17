@@ -13,4 +13,4 @@ func _process(delta: float) -> void:
 
 
 func _on_pressed() -> void:
-	pile.play_cards(2, 1982)
+	pile.play_cards([20, 100, 30, 40])

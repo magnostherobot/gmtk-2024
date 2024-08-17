@@ -1,7 +1,8 @@
 extends CPUParticles2D
 
+@export var card_texture: Texture
 
-func play_cards(rank: int, count: int) -> void:
+func play_cards(count: int) -> void:
 	clear()
 	self.amount = count
 	self.lifetime = 1
@@ -18,10 +19,9 @@ func clear() -> void:
 func _ready() -> void:
 	pass
 
-
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	pass
+	self.texture = card_texture
 
 
 func _on_timer_timeout() -> void:
