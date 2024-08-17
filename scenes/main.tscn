@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://d4jsgbnefaos0"]
+[gd_scene load_steps=9 format=3 uid="uid://d4jsgbnefaos0"]
 
 [ext_resource type="PackedScene" uid="uid://bfvp6uoec3dxw" path="res://scenes/hand.tscn" id="1_wtpr2"]
 [ext_resource type="PackedScene" uid="uid://17hxhv2kfbmb" path="res://scenes/hand-column.tscn" id="2_n1frt"]
@@ -6,6 +6,7 @@
 [ext_resource type="Script" path="res://scripts/draw_button.gd" id="4_g8p6j"]
 [ext_resource type="Texture2D" uid="uid://jddeqhhhfk70" path="res://sprites/cards.png" id="5_8omnc"]
 [ext_resource type="Script" path="res://scripts/set_pile.gd" id="6_frlfd"]
+[ext_resource type="Script" path="res://scenes/throw-button.gd" id="7_081wq"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_6cakh"]
 atlas = ExtResource("5_8omnc")
@@ -25,29 +26,21 @@ count = 3
 faceup = false
 
 [node name="PlayerDeck" parent="." instance=ExtResource("3_77w5e")]
+visible = true
 z_index = -1
 position = Vector2(-460, 540)
 scale = Vector2(0.63778, 0.63778)
 cards = Array[int]([1, 2, 3, 4])
 
 [node name="OpponentDeck" parent="." instance=ExtResource("3_77w5e")]
+visible = true
 z_index = -1
 position = Vector2(460, 540)
 scale = Vector2(-0.638, 0.638)
 cards = Array[int]([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
 
-[node name="Button" type="Button" parent="." node_paths=PackedStringArray("deck", "hand")]
-offset_left = -562.0
-offset_top = -317.0
-offset_right = -514.0
-offset_bottom = -286.0
-scale = Vector2(2.1503, 1.89191)
-text = "draw"
-script = ExtResource("4_g8p6j")
-deck = NodePath("../PlayerDeck")
-hand = NodePath("../PlayerHand")
-
 [node name="SetPile" type="CPUParticles2D" parent="."]
+z_index = -2
 position = Vector2(0, 144)
 emitting = false
 amount = 100
@@ -57,10 +50,10 @@ texture = SubResource("AtlasTexture_6cakh")
 emission_shape = 3
 emission_rect_extents = Vector2(300, 100)
 direction = Vector2(0, -1)
-spread = 5.0
+spread = 15.0
 gravity = Vector2(0, 0)
-initial_velocity_min = 800.0
-initial_velocity_max = 800.0
+initial_velocity_min = 700.0
+initial_velocity_max = 900.0
 angular_velocity_min = -10.0
 angular_velocity_max = 10.0
 linear_accel_min = -2000.0
@@ -75,5 +68,35 @@ script = ExtResource("6_frlfd")
 wait_time = 0.5
 one_shot = true
 
-[connection signal="pressed" from="Button" to="Button" method="_button_pressed"]
+[node name="UI" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="DrawButton" type="Button" parent="UI" node_paths=PackedStringArray("deck", "hand")]
+layout_mode = 0
+offset_left = -562.0
+offset_top = -317.0
+offset_right = -514.0
+offset_bottom = -286.0
+scale = Vector2(2.1503, 1.89191)
+text = "draw"
+script = ExtResource("4_g8p6j")
+deck = NodePath("../../PlayerDeck")
+hand = NodePath("../../PlayerHand")
+
+[node name="ThrowButton" type="Button" parent="UI" node_paths=PackedStringArray("pile")]
+layout_mode = 0
+offset_left = -452.0
+offset_top = -317.0
+offset_right = -397.0
+offset_bottom = -286.0
+scale = Vector2(1.97163, 1.86243)
+text = "throw"
+script = ExtResource("7_081wq")
+pile = NodePath("../../SetPile")
+
 [connection signal="timeout" from="SetPile/Timer" to="SetPile" method="_on_timer_timeout"]
+[connection signal="pressed" from="UI/DrawButton" to="UI/DrawButton" method="_button_pressed"]
+[connection signal="pressed" from="UI/ThrowButton" to="UI/ThrowButton" method="_on_pressed"]
