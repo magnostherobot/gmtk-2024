@@ -1,21 +1,16 @@
 [gd_scene load_steps=8 format=3 uid="uid://d4jsgbnefaos0"]
 
-[ext_resource type="Texture2D" uid="uid://b1gjjsif3emk2" path="res://textures/table.png" id="1_ny0oj"]
 [ext_resource type="PackedScene" uid="uid://bfvp6uoec3dxw" path="res://scenes/hand.tscn" id="1_wtpr2"]
 [ext_resource type="PackedScene" uid="uid://17hxhv2kfbmb" path="res://scenes/hand-column.tscn" id="2_n1frt"]
 [ext_resource type="PackedScene" uid="uid://c8747s5dmbype" path="res://scenes/deck.tscn" id="3_77w5e"]
 [ext_resource type="PackedScene" uid="uid://dpr1gbf1acv8h" path="res://scenes/pile.tscn" id="4_2ulhs"]
 [ext_resource type="Script" path="res://scripts/draw_button.gd" id="4_g8p6j"]
 [ext_resource type="Script" path="res://scripts/throw-button.gd" id="7_081wq"]
+[ext_resource type="Script" path="res://scripts/manager.gd" id="7_mp5rb"]
 
 [node name="Root" type="Node2D"]
 
 [node name="Camera2D" type="Camera2D" parent="."]
-
-[node name="Sprite2D" type="Sprite2D" parent="Camera2D"]
-z_index = -20
-scale = Vector2(0.2, 0.2)
-texture = ExtResource("1_ny0oj")
 
 [node name="PlayerHand" parent="." instance=ExtResource("1_wtpr2")]
 position = Vector2(-74, 220)
@@ -72,7 +67,11 @@ text = "throw"
 script = ExtResource("7_081wq")
 pile = NodePath("../../Pile")
 
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+[node name="Manager" type="Node2D" parent="." node_paths=PackedStringArray("player_hand", "pile")]
+script = ExtResource("7_mp5rb")
+player_hand = NodePath("../PlayerHand")
+pile = NodePath("../Pile")
 
+[connection signal="set_played" from="PlayerHand" to="Manager" method="_on_player_hand_set_played"]
 [connection signal="pressed" from="UI/DrawButton" to="UI/DrawButton" method="_button_pressed"]
 [connection signal="pressed" from="UI/ThrowButton" to="UI/ThrowButton" method="_on_pressed"]

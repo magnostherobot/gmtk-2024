@@ -1,6 +1,8 @@
 @tool
 extends Node2D
 
+signal set_played(min: int, max: int, count: int)
+
 @export var counts = [0, 0, 0, 0, 0, 0, 0, 0]
 
 var cards_hovered = [false, false, false, false, false, false, false, false]
@@ -18,6 +20,18 @@ func add_card(rank: int):
 func add_cards(cards: Array):
 	for card in cards:
 		add_card(card)
+		
+func remove_set(min: int, max: int, count: int) -> void:
+	for i in range(min, max + 1):
+		counts[i - 1] -= count
+
+func remove_cards(counts: Array[int]) -> Array[int]:
+	var result = []
+	for i in range(0, len(counts)):
+		var to_remove = min(self.counts[i], counts[i])
+		self.counts[i] -= to_remove
+		result.push_back(to_remove)
+	return result
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -92,6 +106,13 @@ func update_selection(rank: int) -> void:
 			select(rank)
 		
 		last_hovered = rank
+		
+func suggest_set(min: int, max: int) -> void:
+	var count = counts[max - 1]
+	for i in range(min, max):
+		count = min(count, counts[i - 1])
+	print("suggesting set ", count, "x", min, "->", max)
+	set_played.emit(min, max, count)
 
 func _on_card_hovered(rank: int) -> void:
 	cards_hovered[rank - 1] = true
@@ -108,7 +129,7 @@ func _on_mouse_down():
 	
 func _on_mouse_up():
 	selecting = false
-	print(selection_lowest, selection_highest)
+	suggest_set(selection_lowest, selection_highest)
 	unselect_all()
 	
 func _on_mouse_exit() -> void:

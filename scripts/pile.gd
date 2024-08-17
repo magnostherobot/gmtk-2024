@@ -2,9 +2,19 @@ extends Node2D
 
 var rank_piles: Array[Node2D]
 
+func clear() -> void:
+	for pile in rank_piles:
+		pile.clear()
+
 func play_cards(counts: Array) -> void:
+	clear()
 	for i in range(0, len(counts)):
 		rank_piles[i].play_cards(counts[i])
+
+func play_run(min: int, max: int, count: int) -> void:
+	clear()
+	for i in range(min, max + 1):
+		rank_piles[i - 1].play_cards(count)
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
