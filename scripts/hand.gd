@@ -18,7 +18,7 @@ func add_cards(cards: Array):
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	columns = [
-		$HandColumn,
+		$HandColumn1,
 		$HandColumn2,
 		$HandColumn3,
 		$HandColumn4,

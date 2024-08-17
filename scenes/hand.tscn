@@ -7,7 +7,7 @@
 script = ExtResource("1_7kn7n")
 counts = [1, 2, 3, 4, 5, 6, 7, 8]
 
-[node name="HandColumn" parent="." instance=ExtResource("1_bq2wk")]
+[node name="HandColumn1" parent="." instance=ExtResource("1_bq2wk")]
 position = Vector2(-207, 0)
 count = 1
 rank = 1
@@ -45,8 +45,8 @@ position = Vector2(210, 0)
 count = 8
 rank = 8
 
-[connection signal="card_hovered" from="HandColumn" to="." method="_on_card_hovered"]
-[connection signal="card_unhovered" from="HandColumn" to="." method="_on_card_unhovered"]
+[connection signal="card_hovered" from="HandColumn1" to="." method="_on_card_hovered"]
+[connection signal="card_unhovered" from="HandColumn1" to="." method="_on_card_unhovered"]
 [connection signal="card_hovered" from="HandColumn2" to="." method="_on_card_hovered"]
 [connection signal="card_unhovered" from="HandColumn2" to="." method="_on_card_unhovered"]
 [connection signal="card_hovered" from="HandColumn3" to="." method="_on_card_hovered"]
