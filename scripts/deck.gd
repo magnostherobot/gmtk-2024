@@ -5,8 +5,11 @@ extends Node2D
 @export var cards: Array[int] = []
 
 func draw_card() -> int:
-	return cards.pop_back()
-	
+	if len(cards) > 0:
+		return cards.pop_back()
+	else:
+		return 0
+
 func add_cards(new_cards: Array):
 	cards = new_cards + cards
 

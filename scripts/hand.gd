@@ -8,7 +8,8 @@ var last_hovered: int
 var columns: Array = []
 
 func add_card(rank: int):
-	counts[rank - 1] += 1
+	if rank > 0:
+		counts[rank - 1] += 1
 
 func add_cards(cards: Array):
 	for card in cards:
