@@ -4,12 +4,13 @@ extends CPUParticles2D
 
 func play_cards(count: int) -> void:
 	clear()
-	self.amount = count
-	self.lifetime = 1
-	# TODO: update texture in use
-	self.emitting = true
-	self.speed_scale = 1
-	$Timer.start()
+	if count > 0:
+		self.amount = count
+		self.lifetime = 1
+		# TODO: update texture in use
+		self.emitting = true
+		self.speed_scale = 1
+		$Timer.start()
 
 func clear() -> void:
 	self.restart()
