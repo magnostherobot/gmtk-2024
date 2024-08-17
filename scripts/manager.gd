@@ -61,6 +61,7 @@ func make_opponent_move():
 	if not my_play[0]:
 		opponent_pass()
 	else:
+		opponent_hand.remove_set(my_play[1][0], my_play[1][1], my_play[1][2])
 		make_new_play(my_play[1][0], my_play[1][1], my_play[1][2])
 		state = PLAYER_TURN
 	
