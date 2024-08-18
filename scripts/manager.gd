@@ -2,6 +2,7 @@ extends Node2D
 
 enum { PLAYER_TURN, OPPONENT_TURN, PERK_PICK }
 
+@export var play_scale := 1
 @export var player_hand: Node2D
 @export var opponent_hand: Node2D
 @export var player_deck: Node2D
@@ -62,6 +63,7 @@ func player_wins_hand():
 	move_play_to_pile()
 	give_player_pile()
 	give_player_opponents_hand()
+	draw_both_cards(10)
 	start_player_turn()
 
 func opponent_wins_hand():
@@ -69,6 +71,7 @@ func opponent_wins_hand():
 	move_play_to_pile()
 	give_opponent_pile()
 	give_opponent_players_hand()
+	draw_both_cards(10)
 	start_opponent_turn()
 
 func make_opponent_move():
@@ -123,6 +126,13 @@ func draw_player_cards(count: int):
 func draw_opponent_cards(count: int):
 	draw_cards(opponent_deck, opponent_hand, count)
 	
+func draw_both_cards(count: int):
+	draw_player_cards(count)
+	draw_opponent_cards(count)
+	
+func draw_player_cards_or_lose(count: int):
+	pass
+	
 func start_player_turn():
 	state = PLAYER_TURN
 	
@@ -135,22 +145,22 @@ func player_pass():
 	move_play_to_pile()
 	give_opponent_pile()
 	start_opponent_turn()
-	draw_player_cards(2)
+	draw_player_cards(2 * play_scale)
 	
 func opponent_pass():
 	print("opponent passes")
 	move_play_to_pile()
 	give_player_pile()
 	start_player_turn()
-	draw_opponent_cards(2)
+	draw_opponent_cards(2 * play_scale)
 
 func _ready() -> void:
-	player_deck.reset()
-	opponent_deck.reset()
+	player_deck.reset(4 * play_scale)
+	opponent_deck.reset(4 * play_scale)
 	player_hand.clear()
 	opponent_hand.clear()
-	draw_player_cards(10)
-	draw_opponent_cards(10)
+	draw_player_cards(10 * play_scale)
+	draw_opponent_cards(10 * play_scale)
 	start_player_turn()
 
 func _on_player_hand_set_played(min_rank: int, max_rank: int, count: int) -> void:
@@ -173,7 +183,6 @@ func _on_opponent_timer_timeout() -> void:
 
 func _on_player_pass() -> void:
 	player_pass()
-
 
 func _on_win_hand_timer_timeout() -> void:
 	if state == OPPONENT_TURN:

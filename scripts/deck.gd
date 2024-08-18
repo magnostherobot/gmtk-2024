@@ -21,17 +21,11 @@ func add_card_counts(new_counts: Array[int]):
 	result.shuffle()
 	add_cards(result)
 	
-func reset():
-	cards = [
-		1, 1, 1, 1,
-		2, 2, 2, 2,
-		3, 3, 3, 3,
-		4, 4, 4, 4,
-		5, 5, 5, 5,
-		6, 6, 6, 6,
-		7, 7, 7, 7,
-		8, 8, 8, 8,
-	]
+func reset(n: int):
+	cards = []
+	for i in range(0, n):
+		for r in range(1, 9):
+			cards.push_back(r)
 	cards.shuffle()
 
 # Called when the node enters the scene tree for the first time.
