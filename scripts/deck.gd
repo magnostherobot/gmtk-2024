@@ -27,6 +27,9 @@ func reset(n: int):
 		for r in range(1, 9):
 			cards.push_back(r)
 	cards.shuffle()
+	
+func get_size() -> int:
+	return len(cards)
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:

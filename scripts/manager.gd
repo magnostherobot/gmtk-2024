@@ -1,6 +1,6 @@
 extends Node2D
 
-enum { PLAYER_TURN, OPPONENT_TURN, PERK_PICK }
+enum { PLAYER_TURN, OPPONENT_TURN, GAME_OVER }
 
 @export var play_scale := 1
 @export var player_hand: Node2D
@@ -63,16 +63,14 @@ func player_wins_hand():
 	move_play_to_pile()
 	give_player_pile()
 	give_player_opponents_hand()
-	draw_both_cards(10)
-	start_player_turn()
+	start_hand(PLAYER_TURN)
 
 func opponent_wins_hand():
 	print("opponent wins hand")
 	move_play_to_pile()
 	give_opponent_pile()
 	give_opponent_players_hand()
-	draw_both_cards(10)
-	start_opponent_turn()
+	start_hand(OPPONENT_TURN)
 
 func make_opponent_move():
 	var play_to_beat = pile.get_current_play()
@@ -81,6 +79,7 @@ func make_opponent_move():
 	if not my_play[0]:
 		opponent_pass()
 	else:
+		print("opponent plays ", my_play[1][2], "x", my_play[1][0], "->", my_play[1][1])
 		opponent_hand.remove_set(my_play[1][0], my_play[1][1], my_play[1][2])
 		make_new_play(my_play[1][0], my_play[1][1], my_play[1][2])
 		
@@ -153,15 +152,42 @@ func opponent_pass():
 	give_player_pile()
 	start_player_turn()
 	draw_opponent_cards(2 * play_scale)
-
-func _ready() -> void:
-	player_deck.reset(4 * play_scale)
-	opponent_deck.reset(4 * play_scale)
+	
+func win():
+	print("player wins")
+	play_scale *= 2
+	start_game()
+	
+func lose():
+	print("opponent wins")
+	state = GAME_OVER
+	
+func start_hand(lead):
+	print("new hand started")
+	
+	if player_deck.get_size() < 10:
+		lose()
+	elif opponent_deck.get_size() < 10:
+		win()
+	else:
+		draw_both_cards(10 * play_scale)
+		
+		if lead == PLAYER_TURN:
+			start_player_turn()
+		else:
+			start_opponent_turn()
+	
+func start_game():
+	print("game started")
+	player_deck.reset(2 * play_scale)
+	opponent_deck.reset(2 * play_scale)
 	player_hand.clear()
 	opponent_hand.clear()
-	draw_player_cards(10 * play_scale)
-	draw_opponent_cards(10 * play_scale)
+	start_hand(PLAYER_TURN)
 	start_player_turn()
+
+func _ready() -> void:
+	start_game()
 
 func _on_player_hand_set_played(min_rank: int, max_rank: int, count: int) -> void:
 	if state != PLAYER_TURN:
@@ -170,6 +196,7 @@ func _on_player_hand_set_played(min_rank: int, max_rank: int, count: int) -> voi
 	if not is_legal_move(min_rank, max_rank, count):
 		return
 		
+	print("player plays ", count, "x", min_rank, "->", max_rank)
 	player_hand.remove_set(min_rank, max_rank, count)
 	make_new_play(min_rank, max_rank, count)
 	
