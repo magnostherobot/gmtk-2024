@@ -34,5 +34,5 @@ func get_size() -> int:
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(_delta: float) -> void:
 	$Sprite2D.visible = len(cards) > 0
-	$Sprite2D.transform.origin.y = -min(250, len(cards)) * 2 - 200
+	$Sprite2D.transform.origin.y = -min(500, len(cards)) * 2 + 50
 	$PanelContainer/Label.text = str(len(cards))
