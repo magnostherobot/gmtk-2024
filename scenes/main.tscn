@@ -10,7 +10,7 @@
 [ext_resource type="Script" path="res://scripts/pile_button.gd" id="7_wmo5i"]
 [ext_resource type="StyleBox" uid="uid://ptofd0ex715b" path="res://fonts/basic_panel_container_styleboxflat.tres" id="7_wnw8v"]
 [ext_resource type="Script" path="res://scripts/debug_buttons.gd" id="7_xdthl"]
-[ext_resource type="Theme" uid="uid://cr4cgd7getepf" path="res://fonts/basic_text_theme.tres" id="8_jyhes"]
+[ext_resource type="Theme" path="res://fonts/basic_text_theme.tres" id="8_jyhes"]
 [ext_resource type="PackedScene" uid="uid://ce8amhnue1moi" path="res://scenes/win_pile.tscn" id="8_xmb16"]
 [ext_resource type="PackedScene" uid="uid://ck6qk0ej0g33d" path="res://scenes/opponent_hand.tscn" id="9_bf6rh"]
 [ext_resource type="FontFile" uid="uid://c3lpn613r3hve" path="res://fonts/Knuckle Down.otf" id="9_dvt88"]

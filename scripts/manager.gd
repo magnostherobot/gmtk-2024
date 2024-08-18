@@ -201,8 +201,8 @@ func start_game():
 	pile.clear()
 	clear_readout()
 	play_readout.text = "Game %d" % game_number
-	player_deck.reset(2 * play_scale)
-	opponent_deck.reset(2 * play_scale)
+	player_deck.reset(4 * play_scale)
+	opponent_deck.reset(4 * play_scale)
 	player_hand.clear()
 	opponent_hand.clear()
 	start_hand(PLAYER_TURN)
