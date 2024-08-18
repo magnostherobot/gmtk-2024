@@ -108,7 +108,18 @@ scale = Vector2(2.02161, 2.15109)
 text = "reset"
 script = SubResource("GDScript_nvd1v")
 
-[node name="Manager" type="Node2D" parent="." node_paths=PackedStringArray("player_hand", "opponent_hand", "player_deck", "opponent_deck", "pile", "win_pile")]
+[node name="PlayReadout" type="Label" parent="UI"]
+layout_mode = 0
+offset_left = -126.0
+offset_top = 96.0
+offset_right = -5.0
+offset_bottom = 124.0
+scale = Vector2(2.0158, 2.17339)
+theme_override_font_sizes/font_size = 20
+text = " 10x2->5 (40)"
+horizontal_alignment = 1
+
+[node name="Manager" type="Node2D" parent="." node_paths=PackedStringArray("player_hand", "opponent_hand", "player_deck", "opponent_deck", "pile", "win_pile", "play_readout")]
 z_index = -2
 script = ExtResource("7_mp5rb")
 player_hand = NodePath("../PlayerHand")
@@ -117,6 +128,7 @@ player_deck = NodePath("../PlayerDeck")
 opponent_deck = NodePath("../OpponentDeck")
 pile = NodePath("../Pile")
 win_pile = NodePath("../WinPile")
+play_readout = NodePath("../UI/PlayReadout")
 
 [node name="Timer" type="Timer" parent="Manager"]
 one_shot = true
