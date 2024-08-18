@@ -16,7 +16,8 @@
 [node name="Camera2D" type="Camera2D" parent="."]
 
 [node name="PlayerHand" parent="." instance=ExtResource("1_wtpr2")]
-position = Vector2(-74, 220)
+position = Vector2(-95, 242)
+scale = Vector2(0.608543, 0.608543)
 counts = Array[int]([7, 1, 1, 1, 4, 0, 3, 1])
 
 [node name="PlayerDeck" parent="." instance=ExtResource("3_77w5e")]
@@ -98,13 +99,17 @@ win_pile = NodePath("../WinPile")
 [node name="Timer" type="Timer" parent="Manager"]
 one_shot = true
 
+[node name="WinHandTimer" type="Timer" parent="Manager"]
+one_shot = true
+
 [node name="WinPile" parent="." instance=ExtResource("8_xmb16")]
 z_index = -2
 position = Vector2(0, -305)
 scale = Vector2(0.5, 0.5)
 
 [node name="OpponentHand" parent="." instance=ExtResource("9_bf6rh")]
-position = Vector2(314, 222)
+position = Vector2(335, 225)
+scale = Vector2(0.759838, 0.759838)
 counts = Array[int]([1, 1, 1, 1, 1, 1, 0, 0])
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
@@ -118,3 +123,4 @@ texture = ExtResource("1_ny0oj")
 [connection signal="pressed" from="UI/PileButton" to="UI/PileButton" method="_on_pressed"]
 [connection signal="pressed" from="UI/PassButton" to="Manager" method="_on_player_pass"]
 [connection signal="timeout" from="Manager/Timer" to="Manager" method="_on_opponent_timer_timeout"]
+[connection signal="timeout" from="Manager/WinHandTimer" to="Manager" method="_on_win_hand_timer_timeout"]

@@ -20,6 +20,10 @@ func add_card(rank: int):
 func add_cards(cards: Array):
 	for card in cards:
 		add_card(card)
+
+func add_card_counts(new_counts: Array[int]):
+	for i in range(0, len(new_counts)):
+		counts[i] += new_counts[i]
 		
 func remove_set(min_rank: int, max_rank: int, count: int) -> void:
 	for i in range(min_rank, max_rank + 1):
@@ -37,6 +41,15 @@ func clear() -> Array[int]:
 	var result := counts
 	counts = [0, 0, 0, 0, 0, 0, 0, 0]
 	return result
+	
+func get_size() -> int:
+	var result = 0
+	for i in range(0, len(counts)):
+		result += counts[i]
+	return result
+	
+func is_empty() -> bool:
+	return get_size() == 0
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:

@@ -35,7 +35,6 @@ func calculate_run_count(counts: Array[int], min_rank: int, max_rank: int) -> in
 	return min_count
 	
 func weakest_legal_move(counts: Array[int], to_beat: Array[int]) -> Array:
-	print(counts)
 	var legal_play_found = false
 	
 	var weakest_play: Array[int]
@@ -45,25 +44,47 @@ func weakest_legal_move(counts: Array[int], to_beat: Array[int]) -> Array:
 		var play = play_ranges[i]
 		var count = calculate_run_count(counts, play[0], play[1])
 		var total_count = count * (play[1] - play[0] + 1)
-		print(play)
 		if is_legal_move(play[0], play[1], count) and total_count < weakest_play_card_count:
 			legal_play_found = true
 			weakest_play = [play[0], play[1], count]
-			print(weakest_play, " is current weakest")
 			weakest_play_card_count = total_count
 			
-	print(legal_play_found, weakest_play, pile.get_current_play())
 	return [legal_play_found, weakest_play]
+
+func give_player_opponents_hand():
+	player_deck.add_card_counts(opponent_hand.clear())
+
+func give_opponent_players_hand():
+	opponent_deck.add_card_counts(player_hand.clear())
 	
+func player_wins_hand():
+	print("player wins hand")
+	move_play_to_pile()
+	give_player_pile()
+	give_player_opponents_hand()
+	start_player_turn()
+
+func opponent_wins_hand():
+	print("opponent wins hand")
+	move_play_to_pile()
+	give_opponent_pile()
+	give_opponent_players_hand()
+	start_opponent_turn()
+
 func make_opponent_move():
 	var play_to_beat = pile.get_current_play()
 	var my_play = weakest_legal_move(opponent_hand.counts, play_to_beat)
+	
 	if not my_play[0]:
 		opponent_pass()
 	else:
 		opponent_hand.remove_set(my_play[1][0], my_play[1][1], my_play[1][2])
 		make_new_play(my_play[1][0], my_play[1][1], my_play[1][2])
-		state = PLAYER_TURN
+		
+		if opponent_hand.is_empty():
+			$WinHandTimer.start(2)
+		else:
+			start_player_turn()
 	
 func move_play_to_pile():
 	var old_play = pile.get_current_play()
@@ -102,20 +123,25 @@ func draw_player_cards(count: int):
 func draw_opponent_cards(count: int):
 	draw_cards(opponent_deck, opponent_hand, count)
 	
+func start_player_turn():
+	state = PLAYER_TURN
+	
 func start_opponent_turn():
 	state = OPPONENT_TURN
 	$Timer.start(randf() + 1.0)
 	
 func player_pass():
+	print("player passes")
 	move_play_to_pile()
 	give_opponent_pile()
 	start_opponent_turn()
 	draw_player_cards(2)
 	
 func opponent_pass():
+	print("opponent passes")
 	move_play_to_pile()
 	give_player_pile()
-	state = PLAYER_TURN
+	start_player_turn()
 	draw_opponent_cards(2)
 
 func _ready() -> void:
@@ -125,7 +151,7 @@ func _ready() -> void:
 	opponent_hand.clear()
 	draw_player_cards(10)
 	draw_opponent_cards(10)
-	state = PLAYER_TURN
+	start_player_turn()
 
 func _on_player_hand_set_played(min_rank: int, max_rank: int, count: int) -> void:
 	if state != PLAYER_TURN:
@@ -136,10 +162,21 @@ func _on_player_hand_set_played(min_rank: int, max_rank: int, count: int) -> voi
 		
 	player_hand.remove_set(min_rank, max_rank, count)
 	make_new_play(min_rank, max_rank, count)
-	start_opponent_turn()
+	
+	if player_hand.is_empty():
+		$WinHandTimer.start(2)
+	else:
+		start_opponent_turn()
 
 func _on_opponent_timer_timeout() -> void:
 	make_opponent_move()
 
 func _on_player_pass() -> void:
 	player_pass()
+
+
+func _on_win_hand_timer_timeout() -> void:
+	if state == OPPONENT_TURN:
+		opponent_wins_hand()
+	elif state == PLAYER_TURN:
+		player_wins_hand()

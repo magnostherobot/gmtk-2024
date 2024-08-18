@@ -13,6 +13,14 @@ func draw_card() -> int:
 func add_cards(new_cards: Array[int]):
 	cards = new_cards + cards
 	
+func add_card_counts(new_counts: Array[int]):
+	var result: Array[int] = []
+	for i in range(0, len(new_counts)):
+		for j in range(0, new_counts[i]):
+			result.push_back(i + 1)
+	result.shuffle()
+	add_cards(result)
+	
 func reset():
 	cards = [
 		1, 1, 1, 1,
