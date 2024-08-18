@@ -89,6 +89,7 @@ text = "pass"
 [node name="Manager" type="Node2D" parent="." node_paths=PackedStringArray("player_hand", "opponent_hand", "player_deck", "opponent_deck", "pile", "win_pile")]
 z_index = -2
 script = ExtResource("7_mp5rb")
+play_scale = 128
 player_hand = NodePath("../PlayerHand")
 opponent_hand = NodePath("../OpponentHand")
 player_deck = NodePath("../PlayerDeck")
