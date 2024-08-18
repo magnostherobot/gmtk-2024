@@ -32,7 +32,7 @@ func _process(_delta: float) -> void:
 	$Visual/Card.faceup = faceup
 	
 	self.visible = count > 0
-	$Visual/MarginContainer/Label.visible = count != 1
+	$Visual/MarginContainer.visible = count != 1
 
 func _on_area_2d_mouse_entered() -> void:
 	card_hovered.emit(rank)
