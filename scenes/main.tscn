@@ -14,13 +14,6 @@
 [ext_resource type="PackedScene" uid="uid://ck6qk0ej0g33d" path="res://scenes/opponent_hand.tscn" id="9_bf6rh"]
 [ext_resource type="FontFile" uid="uid://c3lpn613r3hve" path="res://fonts/Knuckle Down.otf" id="9_dvt88"]
 
-[sub_resource type="GDScript" id="GDScript_nvd1v"]
-script/source = "extends Button
-
-func _on_pressed() -> void:
-	pass # Replace with function body.
-"
-
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jk46u"]
 content_margin_left = 10.0
 content_margin_top = 16.0
@@ -58,6 +51,13 @@ corner_radius_bottom_left = 3
 shadow_color = Color(0, 0, 0, 1)
 shadow_size = 5
 shadow_offset = Vector2(2, 2)
+
+[sub_resource type="GDScript" id="GDScript_nvd1v"]
+script/source = "extends Button
+
+func _on_pressed() -> void:
+	pass # Replace with function body.
+"
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qyrpr"]
 content_margin_left = 7.0
@@ -113,40 +113,6 @@ offset_bottom = 20.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="DrawButton" type="Button" parent="UI" node_paths=PackedStringArray("deck", "hand")]
-layout_mode = 0
-offset_left = -562.0
-offset_top = -317.0
-offset_right = -514.0
-offset_bottom = -286.0
-scale = Vector2(2.1503, 1.89191)
-text = "draw"
-script = ExtResource("4_g8p6j")
-deck = NodePath("../../PlayerDeck")
-hand = NodePath("../../PlayerHand")
-
-[node name="ThrowButton" type="Button" parent="UI" node_paths=PackedStringArray("pile")]
-layout_mode = 0
-offset_left = -452.0
-offset_top = -317.0
-offset_right = -397.0
-offset_bottom = -286.0
-scale = Vector2(1.97163, 1.86243)
-text = "throw"
-script = ExtResource("7_081wq")
-pile = NodePath("../../Pile")
-
-[node name="PileButton" type="Button" parent="UI" node_paths=PackedStringArray("win_pile")]
-layout_mode = 0
-offset_left = -337.0
-offset_top = -315.0
-offset_right = -300.0
-offset_bottom = -284.0
-scale = Vector2(2.49395, 1.79292)
-text = "pile"
-script = ExtResource("7_wmo5i")
-win_pile = NodePath("../../WinPile")
-
 [node name="PanelContainer" type="PanelContainer" parent="UI"]
 layout_mode = 0
 offset_left = -540.0
@@ -161,16 +127,6 @@ theme = ExtResource("8_jyhes")
 theme_override_colors/icon_hover_pressed_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 50
 text = "Pass"
-
-[node name="ResetButton" type="Button" parent="UI"]
-layout_mode = 0
-offset_left = -448.0
-offset_top = -249.0
-offset_right = -400.0
-offset_bottom = -218.0
-scale = Vector2(2.02161, 2.15109)
-text = "reset"
-script = SubResource("GDScript_nvd1v")
 
 [node name="TurnContainer" type="PanelContainer" parent="UI"]
 custom_minimum_size = Vector2(250, 70)
@@ -215,6 +171,57 @@ theme_override_fonts/font = ExtResource("9_dvt88")
 theme_override_font_sizes/font_size = 30
 text = " 10x2->5 (40)"
 horizontal_alignment = 1
+
+[node name="DebugButtons" type="Control" parent="UI"]
+anchors_preset = 0
+offset_left = 295.0
+offset_top = -251.0
+offset_right = 335.0
+offset_bottom = -211.0
+
+[node name="DrawButton" type="Button" parent="UI/DebugButtons" node_paths=PackedStringArray("deck", "hand")]
+layout_mode = 0
+offset_left = -85.9999
+offset_top = -47.0
+offset_right = -37.9999
+offset_bottom = -16.0
+scale = Vector2(2.1503, 1.89191)
+text = "draw"
+script = ExtResource("4_g8p6j")
+deck = NodePath("../../../PlayerDeck")
+hand = NodePath("../../../PlayerHand")
+
+[node name="ThrowButton" type="Button" parent="UI/DebugButtons" node_paths=PackedStringArray("pile")]
+layout_mode = 0
+offset_left = 24.0
+offset_top = -47.0
+offset_right = 79.0
+offset_bottom = -16.0
+scale = Vector2(1.97163, 1.86243)
+text = "throw"
+script = ExtResource("7_081wq")
+pile = NodePath("../../../Pile")
+
+[node name="PileButton" type="Button" parent="UI/DebugButtons" node_paths=PackedStringArray("win_pile")]
+layout_mode = 0
+offset_left = -82.0
+offset_top = 26.0
+offset_right = -45.0
+offset_bottom = 57.0
+scale = Vector2(2.49395, 1.79292)
+text = "pile"
+script = ExtResource("7_wmo5i")
+win_pile = NodePath("../../../WinPile")
+
+[node name="ResetButton" type="Button" parent="UI/DebugButtons"]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 21.0
+offset_right = 76.0
+offset_bottom = 52.0
+scale = Vector2(2.02161, 2.15109)
+text = "reset"
+script = SubResource("GDScript_nvd1v")
 
 [node name="Manager" type="Node2D" parent="." node_paths=PackedStringArray("player_hand", "opponent_hand", "player_deck", "opponent_deck", "pile", "win_pile", "play_readout", "turn_readout")]
 z_index = -2
@@ -274,10 +281,10 @@ scale = Vector2(0.2, 0.2)
 texture = ExtResource("1_ny0oj")
 
 [connection signal="set_played" from="PlayerHand" to="Manager" method="_on_player_hand_set_played"]
-[connection signal="pressed" from="UI/DrawButton" to="UI/DrawButton" method="_button_pressed"]
-[connection signal="pressed" from="UI/ThrowButton" to="UI/ThrowButton" method="_on_pressed"]
-[connection signal="pressed" from="UI/PileButton" to="UI/PileButton" method="_on_pressed"]
 [connection signal="pressed" from="UI/PanelContainer/PassButton" to="Manager" method="_on_player_pass"]
-[connection signal="pressed" from="UI/ResetButton" to="Manager" method="_on_reset_button_pressed"]
+[connection signal="pressed" from="UI/DebugButtons/DrawButton" to="UI/DebugButtons/DrawButton" method="_button_pressed"]
+[connection signal="pressed" from="UI/DebugButtons/ThrowButton" to="UI/DebugButtons/ThrowButton" method="_on_pressed"]
+[connection signal="pressed" from="UI/DebugButtons/PileButton" to="UI/DebugButtons/PileButton" method="_on_pressed"]
+[connection signal="pressed" from="UI/DebugButtons/ResetButton" to="Manager" method="_on_reset_button_pressed"]
 [connection signal="timeout" from="Manager/Timer" to="Manager" method="_on_opponent_timer_timeout"]
 [connection signal="timeout" from="Manager/WinHandTimer" to="Manager" method="_on_win_hand_timer_timeout"]
