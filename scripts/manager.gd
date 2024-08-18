@@ -179,6 +179,8 @@ func start_hand(lead):
 	
 func start_game():
 	print("game started")
+	win_pile.empty()
+	pile.clear()
 	player_deck.reset(2 * play_scale)
 	opponent_deck.reset(2 * play_scale)
 	player_hand.clear()
