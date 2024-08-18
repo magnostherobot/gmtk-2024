@@ -8,8 +8,8 @@
 [ext_resource type="Script" path="res://scripts/throw-button.gd" id="7_081wq"]
 [ext_resource type="Script" path="res://scripts/manager.gd" id="7_mp5rb"]
 [ext_resource type="Script" path="res://scripts/pile_button.gd" id="7_wmo5i"]
-[ext_resource type="StyleBox" uid="uid://ptofd0ex715b" path="res://fonts/basic_panel_container_styleboxflat.tres" id="7_wnw8v"]
-[ext_resource type="Theme" uid="uid://cr4cgd7getepf" path="res://fonts/basic_text_theme.tres" id="8_jyhes"]
+[ext_resource type="StyleBox" path="res://fonts/basic_panel_container_styleboxflat.tres" id="7_wnw8v"]
+[ext_resource type="Theme" path="res://fonts/basic_text_theme.tres" id="8_jyhes"]
 [ext_resource type="PackedScene" uid="uid://ce8amhnue1moi" path="res://scenes/win_pile.tscn" id="8_xmb16"]
 [ext_resource type="PackedScene" uid="uid://ck6qk0ej0g33d" path="res://scenes/opponent_hand.tscn" id="9_bf6rh"]
 [ext_resource type="FontFile" uid="uid://c3lpn613r3hve" path="res://fonts/Knuckle Down.otf" id="9_dvt88"]
@@ -173,7 +173,18 @@ text = "Your Turn"
 horizontal_alignment = 1
 vertical_alignment = 2
 
-[node name="Manager" type="Node2D" parent="." node_paths=PackedStringArray("player_hand", "opponent_hand", "player_deck", "opponent_deck", "pile", "win_pile")]
+[node name="PlayReadout" type="Label" parent="UI"]
+layout_mode = 0
+offset_left = -126.0
+offset_top = 96.0
+offset_right = -5.0
+offset_bottom = 124.0
+scale = Vector2(2.0158, 2.17339)
+theme_override_font_sizes/font_size = 20
+text = " 10x2->5 (40)"
+horizontal_alignment = 1
+
+[node name="Manager" type="Node2D" parent="." node_paths=PackedStringArray("player_hand", "opponent_hand", "player_deck", "opponent_deck", "pile", "win_pile", "play_readout")]
 z_index = -2
 script = ExtResource("7_mp5rb")
 player_hand = NodePath("../PlayerHand")
@@ -182,6 +193,7 @@ player_deck = NodePath("../PlayerDeck")
 opponent_deck = NodePath("../OpponentDeck")
 pile = NodePath("../Pile")
 win_pile = NodePath("../WinPile")
+play_readout = NodePath("../UI/PlayReadout")
 
 [node name="Timer" type="Timer" parent="Manager"]
 one_shot = true

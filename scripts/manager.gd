@@ -9,6 +9,7 @@ enum { PLAYER_TURN, OPPONENT_TURN, GAME_OVER }
 @export var opponent_deck: Node2D
 @export var pile: Node2D
 @export var win_pile: Node2D
+@export var play_readout: Label
 
 const play_ranges: Array[Array] = [
 	[1,8],
@@ -22,6 +23,14 @@ const play_ranges: Array[Array] = [
 ]
 
 var state
+
+func update_readout(min_rank: int, max_rank: int, count: int):
+	play_readout.text = "%dx%d->%d (%d)" %[
+		count, min_rank, max_rank, count * (1 + max_rank - min_rank)
+	]
+	
+func clear_readout():
+	play_readout.text = ""
 
 func is_legal_move(min_rank: int, max_rank: int, count: int) -> bool:
 	if count <= 0:
@@ -89,11 +98,13 @@ func make_opponent_move():
 			start_player_turn()
 	
 func move_play_to_pile():
+	clear_readout()
 	var old_play = pile.get_current_play()
 	win_pile.add_play(old_play[0], old_play[1], old_play[2])
 	pile.clear()
 
 func make_new_play(min_rank: int, max_rank: int, count: int):
+	update_readout(min_rank, max_rank, count)
 	move_play_to_pile()
 	pile.play_run(min_rank, max_rank, count)
 	
@@ -181,6 +192,7 @@ func start_game():
 	print("game started")
 	win_pile.empty()
 	pile.clear()
+	clear_readout()
 	player_deck.reset(2 * play_scale)
 	opponent_deck.reset(2 * play_scale)
 	player_hand.clear()

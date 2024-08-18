@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" path="res://scripts/deck.gd" id="1_buain"]
 [ext_resource type="Texture2D" uid="uid://tas5bl4g3jry" path="res://textures/playerdeck.png" id="2_koojy"]
+[ext_resource type="StyleBox" path="res://fonts/basic_panel_container_styleboxflat.tres" id="3_jxbec"]
 [ext_resource type="FontFile" uid="uid://c3lpn613r3hve" path="res://fonts/Knuckle Down.otf" id="4_dnn0k"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_so6r2"]
@@ -32,7 +33,7 @@ cards = Array[int]([0])
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 z_index = -1
-position = Vector2(0, -202)
+position = Vector2(0, 48)
 texture = ExtResource("2_koojy")
 
 [node name="PanelContainer" type="PanelContainer" parent="."]
