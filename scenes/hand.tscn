@@ -8,7 +8,7 @@ size = Vector2(539.789, 23.1268)
 
 [node name="Hand" type="Node2D"]
 script = ExtResource("1_7kn7n")
-counts = [1, 2, 3, 4, 5, 6, 7, 8]
+counts = Array[int]([1, 2, 3, 4, 5, 6, 7, 8])
 
 [node name="HandColumn1" parent="." instance=ExtResource("1_bq2wk")]
 position = Vector2(-207, 0)
