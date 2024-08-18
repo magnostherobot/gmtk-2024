@@ -2,9 +2,8 @@
 
 [ext_resource type="PackedScene" uid="uid://cyffdggmpbvwl" path="res://scenes/card.tscn" id="1_5jfua"]
 [ext_resource type="Script" path="res://scripts/hand_column.gd" id="1_phker"]
-[ext_resource type="Theme" uid="uid://cr4cgd7getepf" path="res://fonts/basic_text_theme.tres" id="3_1kwxu"]
-[ext_resource type="LabelSettings" uid="uid://babdekatuo5ak" path="res://fonts/basic_labels.tres" id="4_x4kh3"]
-[ext_resource type="FontFile" uid="uid://c3lpn613r3hve" path="res://fonts/Knuckle Down.otf" id="3_wh1bn"]
+[ext_resource type="Theme" path="res://fonts/basic_text_theme.tres" id="3_1kwxu"]
+[ext_resource type="LabelSettings" path="res://fonts/basic_labels.tres" id="4_x4kh3"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_427k2"]
 content_margin_left = 5.0
