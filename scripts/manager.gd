@@ -24,6 +24,7 @@ const play_ranges: Array[Array] = [
 ]
 
 var state
+var game_number = 1
 
 func update_readout(min_rank: int, max_rank: int, count: int):
 	play_readout.text = "%dx%d->%d (%d)" %[
@@ -171,10 +172,12 @@ func opponent_pass():
 func win():
 	print("player wins")
 	play_scale *= 2
+	game_number += 1
 	start_game()
 	
 func lose():
 	print("opponent wins")
+	turn_readout.text = "GAME OVER"
 	state = GAME_OVER
 	
 func start_hand(lead):
@@ -197,6 +200,7 @@ func start_game():
 	win_pile.empty()
 	pile.clear()
 	clear_readout()
+	play_readout.text = "Game %d" % game_number
 	player_deck.reset(2 * play_scale)
 	opponent_deck.reset(2 * play_scale)
 	player_hand.clear()
