@@ -22,11 +22,13 @@ func unselect() -> void:
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	pass
+	$Visual/Label/Panel/AnimatedSprite2D.play("default")
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(_delta: float) -> void:
 	$Visual/Label.text = str(count)
+	$Visual/Label/Panel/AnimatedSprite2D.scale.x = 0.13+(0.001*count)
+	$Visual/Label/Panel/AnimatedSprite2D.scale.y = 0.13+(0.001*count)
 	$Visual/Card.rank = rank
 	$Visual/Card.faceup = faceup
 	

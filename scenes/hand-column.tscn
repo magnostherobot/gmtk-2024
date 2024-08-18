@@ -1,8 +1,9 @@
-[gd_scene load_steps=7 format=3 uid="uid://17hxhv2kfbmb"]
+[gd_scene load_steps=21 format=3 uid="uid://17hxhv2kfbmb"]
 
 [ext_resource type="PackedScene" uid="uid://cyffdggmpbvwl" path="res://scenes/card.tscn" id="1_5jfua"]
 [ext_resource type="Script" path="res://scripts/hand_column.gd" id="1_phker"]
 [ext_resource type="FontFile" uid="uid://c3lpn613r3hve" path="res://fonts/Knuckle Down.otf" id="3_wh1bn"]
+[ext_resource type="Texture2D" uid="uid://cb0lvb36xgrmx" path="res://sprites/labelspinsprite.svg" id="4_a2w3s"]
 
 [sub_resource type="Theme" id="Theme_dga3c"]
 default_font = ExtResource("3_wh1bn")
@@ -14,10 +15,102 @@ border_width_top = 3
 border_width_right = 3
 border_width_bottom = 3
 border_color = Color(1, 1, 1, 1)
-corner_radius_top_left = 15
-corner_radius_top_right = 15
-corner_radius_bottom_right = 15
-corner_radius_bottom_left = 15
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n3l5s"]
+atlas = ExtResource("4_a2w3s")
+region = Rect2(0, 0, 412, 412)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0ghvv"]
+atlas = ExtResource("4_a2w3s")
+region = Rect2(412, 0, 412, 412)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_77wrr"]
+atlas = ExtResource("4_a2w3s")
+region = Rect2(824, 0, 412, 412)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2wbrc"]
+atlas = ExtResource("4_a2w3s")
+region = Rect2(1236, 0, 412, 412)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fo2cd"]
+atlas = ExtResource("4_a2w3s")
+region = Rect2(1648, 0, 412, 412)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3oqff"]
+atlas = ExtResource("4_a2w3s")
+region = Rect2(2060, 0, 412, 412)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qhg6n"]
+atlas = ExtResource("4_a2w3s")
+region = Rect2(2472, 0, 412, 412)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7tq1p"]
+atlas = ExtResource("4_a2w3s")
+region = Rect2(2884, 0, 412, 412)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7edqh"]
+atlas = ExtResource("4_a2w3s")
+region = Rect2(3296, 0, 412, 412)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_im3ap"]
+atlas = ExtResource("4_a2w3s")
+region = Rect2(3708, 0, 412, 412)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sbxsx"]
+atlas = ExtResource("4_a2w3s")
+region = Rect2(4120, 0, 412, 412)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_35xh1"]
+atlas = ExtResource("4_a2w3s")
+region = Rect2(4532, 0, 412, 412)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_aga4a"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n3l5s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0ghvv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_77wrr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2wbrc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fo2cd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3oqff")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qhg6n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7tq1p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7edqh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_im3ap")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sbxsx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_35xh1")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_6goy2"]
 size = Vector2(20, 23.1139)
@@ -38,7 +131,6 @@ offset_top = 56.0
 offset_right = 18.0
 offset_bottom = 95.0
 theme = SubResource("Theme_dga3c")
-theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 30
 text = "2"
 horizontal_alignment = 1
@@ -53,6 +145,14 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_g7hwd")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Visual/Label/Panel"]
+show_behind_parent = true
+position = Vector2(18, 20)
+scale = Vector2(0.132, 0.132)
+sprite_frames = SubResource("SpriteFrames_aga4a")
+frame_progress = 0.325912
+speed_scale = 1.5
 
 [node name="Area2D" type="Area2D" parent="."]
 
