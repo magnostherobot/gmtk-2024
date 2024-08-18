@@ -31,12 +31,8 @@ func reset(n: int):
 func get_size() -> int:
 	return len(cards)
 
-# Called when the node enters the scene tree for the first time.
-func _ready() -> void:
-	pass
-
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(_delta: float) -> void:
-	self.visible = len(cards) > 0
-	$Sprite2D.transform.origin.y = -len(cards) * 4
+	$Sprite2D.visible = len(cards) > 0
+	$Sprite2D.transform.origin.y = -min(250, len(cards)) * 2 - 200
 	$PanelContainer/Label.text = str(len(cards))
