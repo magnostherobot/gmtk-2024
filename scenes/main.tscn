@@ -1,6 +1,4 @@
-
-[gd_scene load_steps=10 format=3 uid="uid://d4jsgbnefaos0"]
-
+[gd_scene load_steps=11 format=3 uid="uid://d4jsgbnefaos0"]
 
 [ext_resource type="Texture2D" uid="uid://b1gjjsif3emk2" path="res://textures/table.png" id="1_ny0oj"]
 [ext_resource type="PackedScene" uid="uid://bfvp6uoec3dxw" path="res://scenes/hand.tscn" id="1_wtpr2"]
