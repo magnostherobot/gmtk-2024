@@ -3,7 +3,7 @@ extends Node2D
 
 signal set_played(min: int, max: int, count: int)
 
-@export var counts = [0, 0, 0, 0, 0, 0, 0, 0]
+@export var counts: Array[int] = [0, 0, 0, 0, 0, 0, 0, 0]
 
 var cards_hovered = [false, false, false, false, false, false, false, false]
 var last_hovered: int
@@ -31,6 +31,11 @@ func remove_cards(removed_counts: Array[int]) -> Array[int]:
 		var to_remove = min(self.counts[i], removed_counts[i])
 		self.counts[i] -= to_remove
 		result.push_back(to_remove)
+	return result
+	
+func clear() -> Array[int]:
+	var result := counts
+	counts = [0, 0, 0, 0, 0, 0, 0, 0]
 	return result
 
 # Called when the node enters the scene tree for the first time.

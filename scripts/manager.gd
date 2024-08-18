@@ -93,7 +93,6 @@ func give_opponent_pile():
 	give_pile(opponent_deck)
 	
 func draw_cards(deck: Node2D, hand: Node2D, count: int):
-	var cards = []
 	for i in range(0, count):
 		hand.add_card(deck.draw_card())
 
@@ -120,6 +119,12 @@ func opponent_pass():
 	draw_opponent_cards(2)
 
 func _ready() -> void:
+	player_deck.reset()
+	opponent_deck.reset()
+	player_hand.clear()
+	opponent_hand.clear()
+	draw_player_cards(10)
+	draw_opponent_cards(10)
 	state = PLAYER_TURN
 
 func _on_player_hand_set_played(min_rank: int, max_rank: int, count: int) -> void:
