@@ -1,0 +1,6 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://cr4cgd7getepf"]
+
+[ext_resource type="FontFile" uid="uid://c3lpn613r3hve" path="res://fonts/Knuckle Down.otf" id="1_wvts0"]
+
+[resource]
+default_font = ExtResource("1_wvts0")

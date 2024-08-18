@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://d4jsgbnefaos0"]
+[gd_scene load_steps=14 format=3 uid="uid://d4jsgbnefaos0"]
 
 [ext_resource type="Texture2D" uid="uid://b1gjjsif3emk2" path="res://textures/table.png" id="1_ny0oj"]
 [ext_resource type="PackedScene" uid="uid://bfvp6uoec3dxw" path="res://scenes/hand.tscn" id="1_wtpr2"]
@@ -8,6 +8,8 @@
 [ext_resource type="Script" path="res://scripts/throw-button.gd" id="7_081wq"]
 [ext_resource type="Script" path="res://scripts/manager.gd" id="7_mp5rb"]
 [ext_resource type="Script" path="res://scripts/pile_button.gd" id="7_wmo5i"]
+[ext_resource type="StyleBox" uid="uid://ptofd0ex715b" path="res://fonts/basic_panel_container_styleboxflat.tres" id="7_wnw8v"]
+[ext_resource type="Theme" uid="uid://cr4cgd7getepf" path="res://fonts/basic_text_theme.tres" id="8_jyhes"]
 [ext_resource type="PackedScene" uid="uid://ce8amhnue1moi" path="res://scenes/win_pile.tscn" id="8_xmb16"]
 [ext_resource type="PackedScene" uid="uid://ck6qk0ej0g33d" path="res://scenes/opponent_hand.tscn" id="9_bf6rh"]
 
@@ -88,10 +90,13 @@ offset_left = -500.0
 offset_top = -200.0
 offset_right = -457.0
 offset_bottom = -160.0
+theme_override_styles/panel = ExtResource("7_wnw8v")
 
 [node name="PassButton" type="Button" parent="UI/PanelContainer"]
 layout_mode = 2
-text = "pass"
+theme = ExtResource("8_jyhes")
+theme_override_colors/icon_hover_pressed_color = Color(0, 0, 0, 1)
+text = "PASS"
 
 [node name="ResetButton" type="Button" parent="UI"]
 layout_mode = 0
