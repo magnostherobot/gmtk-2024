@@ -1,7 +1,23 @@
-[gd_scene load_steps=4 format=3 uid="uid://17hxhv2kfbmb"]
+[gd_scene load_steps=7 format=3 uid="uid://17hxhv2kfbmb"]
 
 [ext_resource type="PackedScene" uid="uid://cyffdggmpbvwl" path="res://scenes/card.tscn" id="1_5jfua"]
 [ext_resource type="Script" path="res://scripts/hand_column.gd" id="1_phker"]
+[ext_resource type="FontFile" uid="uid://c3lpn613r3hve" path="res://fonts/Knuckle Down.otf" id="3_wh1bn"]
+
+[sub_resource type="Theme" id="Theme_dga3c"]
+default_font = ExtResource("3_wh1bn")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_g7hwd"]
+bg_color = Color(1, 0.2, 0.2, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_6goy2"]
 size = Vector2(20, 23.1139)
@@ -17,14 +33,26 @@ rank = 3
 rank = 3
 
 [node name="Label" type="Label" parent="Visual"]
-offset_left = -57.0
-offset_top = 53.0
-offset_right = -16.0
+offset_left = -18.0
+offset_top = 56.0
+offset_right = 18.0
 offset_bottom = 95.0
+theme = SubResource("Theme_dga3c")
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 30
 text = "2"
-metadata/_edit_use_anchors_ = true
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel" type="Panel" parent="Visual/Label"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_g7hwd")
 
 [node name="Area2D" type="Area2D" parent="."]
 

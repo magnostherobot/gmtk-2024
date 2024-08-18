@@ -1,5 +1,6 @@
-[gd_scene load_steps=8 format=3 uid="uid://d4jsgbnefaos0"]
+[gd_scene load_steps=9 format=3 uid="uid://d4jsgbnefaos0"]
 
+[ext_resource type="Texture2D" uid="uid://b1gjjsif3emk2" path="res://textures/table.png" id="1_ny0oj"]
 [ext_resource type="PackedScene" uid="uid://bfvp6uoec3dxw" path="res://scenes/hand.tscn" id="1_wtpr2"]
 [ext_resource type="PackedScene" uid="uid://17hxhv2kfbmb" path="res://scenes/hand-column.tscn" id="2_n1frt"]
 [ext_resource type="PackedScene" uid="uid://c8747s5dmbype" path="res://scenes/deck.tscn" id="3_77w5e"]
@@ -11,6 +12,11 @@
 [node name="Root" type="Node2D"]
 
 [node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="Camera2D"]
+z_index = -20
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("1_ny0oj")
 
 [node name="PlayerHand" parent="." instance=ExtResource("1_wtpr2")]
 position = Vector2(-74, 220)
