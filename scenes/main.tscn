@@ -113,7 +113,7 @@ position = Vector2(335, 225)
 scale = Vector2(0.759838, 0.759838)
 counts = Array[int]([1, 1, 1, 1, 1, 1, 0, 0])
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="Table" type="Sprite2D" parent="."]
 z_index = -20
 scale = Vector2(0.2, 0.2)
 texture = ExtResource("1_ny0oj")
