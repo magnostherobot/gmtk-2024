@@ -1,0 +1,8 @@
+[gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://babdekatuo5ak"]
+
+[ext_resource type="FontFile" uid="uid://c3lpn613r3hve" path="res://fonts/Knuckle Down.otf" id="1_vssxy"]
+
+[resource]
+font = ExtResource("1_vssxy")
+font_size = 30
+shadow_color = Color(0, 0, 0, 1)

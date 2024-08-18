@@ -39,3 +39,4 @@ func _ready() -> void:
 func _process(_delta: float) -> void:
 	self.visible = len(cards) > 0
 	$Sprite2D.transform.origin.y = -len(cards) * 4
+	$PanelContainer/Label.text = str(len(cards))

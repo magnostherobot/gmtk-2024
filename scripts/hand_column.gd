@@ -22,13 +22,12 @@ func unselect() -> void:
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	$Visual/MarginContainer/AnimatedSprite2D.play("default")
+	pass
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(_delta: float) -> void:
 	$Visual/MarginContainer/Label.text = str(count)
-	$Visual/MarginContainer/AnimatedSprite2D.scale.x = 0.13+(0.0004*count)
-	$Visual/MarginContainer/AnimatedSprite2D.scale.y = 0.13+(0.0004*count)
+	
 	$Visual/Card.rank = rank
 	$Visual/Card.faceup = faceup
 	

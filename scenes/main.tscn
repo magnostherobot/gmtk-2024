@@ -21,17 +21,15 @@ scale = Vector2(0.608543, 0.608543)
 counts = Array[int]([7, 1, 1, 1, 4, 0, 3, 1])
 
 [node name="PlayerDeck" parent="." instance=ExtResource("3_77w5e")]
-visible = true
 z_index = -1
 position = Vector2(-460, 540)
 scale = Vector2(0.63778, 0.63778)
 cards = Array[int]([1, 2, 3, 4])
 
 [node name="OpponentDeck" parent="." instance=ExtResource("3_77w5e")]
-visible = true
 z_index = -1
 position = Vector2(460, 540)
-scale = Vector2(-0.638, 0.638)
+scale = Vector2(0.638, 0.638)
 cards = Array[int]([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
 
 [node name="Pile" parent="." instance=ExtResource("4_2ulhs")]
@@ -77,13 +75,15 @@ text = "pile"
 script = ExtResource("7_wmo5i")
 win_pile = NodePath("../../WinPile")
 
-[node name="PassButton" type="Button" parent="UI"]
+[node name="PanelContainer" type="PanelContainer" parent="UI"]
 layout_mode = 0
-offset_left = -563.0
-offset_top = -250.0
-offset_right = -520.0
-offset_bottom = -219.0
-scale = Vector2(2.47872, 2.27922)
+offset_left = -500.0
+offset_top = -200.0
+offset_right = -457.0
+offset_bottom = -160.0
+
+[node name="PassButton" type="Button" parent="UI/PanelContainer"]
+layout_mode = 2
 text = "pass"
 
 [node name="Manager" type="Node2D" parent="." node_paths=PackedStringArray("player_hand", "opponent_hand", "player_deck", "opponent_deck", "pile", "win_pile")]
@@ -122,6 +122,6 @@ texture = ExtResource("1_ny0oj")
 [connection signal="pressed" from="UI/DrawButton" to="UI/DrawButton" method="_button_pressed"]
 [connection signal="pressed" from="UI/ThrowButton" to="UI/ThrowButton" method="_on_pressed"]
 [connection signal="pressed" from="UI/PileButton" to="UI/PileButton" method="_on_pressed"]
-[connection signal="pressed" from="UI/PassButton" to="Manager" method="_on_player_pass"]
+[connection signal="pressed" from="UI/PanelContainer/PassButton" to="Manager" method="_on_player_pass"]
 [connection signal="timeout" from="Manager/Timer" to="Manager" method="_on_opponent_timer_timeout"]
 [connection signal="timeout" from="Manager/WinHandTimer" to="Manager" method="_on_win_hand_timer_timeout"]
