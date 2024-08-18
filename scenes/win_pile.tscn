@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=3 uid="uid://ce8amhnue1moi"]
+
+[ext_resource type="Texture2D" uid="uid://jddeqhhhfk70" path="res://sprites/cards.png" id="1_fi4w7"]
+[ext_resource type="Script" path="res://scripts/win_pile.gd" id="1_i6cvg"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0l03h"]
+atlas = ExtResource("1_fi4w7")
+region = Rect2(1071.5, 0, 133.5, 194)
+
+[node name="WinPile" type="Node2D"]
+script = ExtResource("1_i6cvg")
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+amount = 1000
+lifetime = 1000.0
+speed_scale = 0.0
+texture = SubResource("AtlasTexture_0l03h")
+emission_shape = 3
+emission_rect_extents = Vector2(400, 100)
+gravity = Vector2(0, 0)
+angle_max = 360.0
+scale_amount_min = 0.5
+scale_amount_max = 0.5
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.125
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

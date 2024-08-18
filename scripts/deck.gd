@@ -10,7 +10,7 @@ func draw_card() -> int:
 	else:
 		return 0
 
-func add_cards(new_cards: Array):
+func add_cards(new_cards: Array[int]):
 	cards = new_cards + cards
 
 # Called when the node enters the scene tree for the first time.
