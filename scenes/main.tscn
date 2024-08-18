@@ -9,7 +9,7 @@
 [ext_resource type="Script" path="res://scripts/manager.gd" id="7_mp5rb"]
 [ext_resource type="Script" path="res://scripts/pile_button.gd" id="7_wmo5i"]
 [ext_resource type="StyleBox" uid="uid://ptofd0ex715b" path="res://fonts/basic_panel_container_styleboxflat.tres" id="7_wnw8v"]
-[ext_resource type="Theme" uid="uid://cr4cgd7getepf" path="res://fonts/basic_text_theme.tres" id="8_jyhes"]
+[ext_resource type="Theme" path="res://fonts/basic_text_theme.tres" id="8_jyhes"]
 [ext_resource type="PackedScene" uid="uid://ce8amhnue1moi" path="res://scenes/win_pile.tscn" id="8_xmb16"]
 [ext_resource type="PackedScene" uid="uid://ck6qk0ej0g33d" path="res://scenes/opponent_hand.tscn" id="9_bf6rh"]
 [ext_resource type="FontFile" uid="uid://c3lpn613r3hve" path="res://fonts/Knuckle Down.otf" id="9_dvt88"]
@@ -177,12 +177,14 @@ custom_minimum_size = Vector2(250, 70)
 layout_mode = 1
 anchors_preset = 10
 anchor_right = 1.0
-offset_top = -320.0
-offset_bottom = -277.0
+offset_left = -104.0
+offset_top = -304.0
+offset_right = 106.0
+offset_bottom = -224.0
 grow_horizontal = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_jk46u")
 
-[node name="Label" type="Label" parent="UI/TurnContainer"]
+[node name="TurnReadout" type="Label" parent="UI/TurnContainer"]
 layout_mode = 2
 size_flags_vertical = 8
 theme_override_colors/font_color = Color(0, 0, 0, 1)
@@ -214,7 +216,7 @@ theme_override_font_sizes/font_size = 30
 text = " 10x2->5 (40)"
 horizontal_alignment = 1
 
-[node name="Manager" type="Node2D" parent="." node_paths=PackedStringArray("player_hand", "opponent_hand", "player_deck", "opponent_deck", "pile", "win_pile", "play_readout")]
+[node name="Manager" type="Node2D" parent="." node_paths=PackedStringArray("player_hand", "opponent_hand", "player_deck", "opponent_deck", "pile", "win_pile", "play_readout", "turn_readout")]
 z_index = -2
 script = ExtResource("7_mp5rb")
 player_hand = NodePath("../PlayerHand")
@@ -224,6 +226,7 @@ opponent_deck = NodePath("../OpponentDeck")
 pile = NodePath("../Pile")
 win_pile = NodePath("../WinPile")
 play_readout = NodePath("../UI/PlayReadoutContainer/PlayReadout")
+turn_readout = NodePath("../UI/TurnContainer/TurnReadout")
 
 [node name="Timer" type="Timer" parent="Manager"]
 one_shot = true

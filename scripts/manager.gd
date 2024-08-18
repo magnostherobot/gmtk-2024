@@ -10,6 +10,7 @@ enum { PLAYER_TURN, OPPONENT_TURN, GAME_OVER }
 @export var pile: Node2D
 @export var win_pile: Node2D
 @export var play_readout: Label
+@export var turn_readout: Label
 
 const play_ranges: Array[Array] = [
 	[1,8],
@@ -98,7 +99,6 @@ func make_opponent_move():
 			start_player_turn()
 	
 func move_play_to_pile():
-	clear_readout()
 	var old_play = pile.get_current_play()
 	win_pile.add_play(old_play[0], old_play[1], old_play[2])
 	pile.clear()
@@ -144,14 +144,17 @@ func draw_player_cards_or_lose(count: int):
 	pass
 	
 func start_player_turn():
+	turn_readout.text = "Your Turn"
 	state = PLAYER_TURN
 	
 func start_opponent_turn():
+	turn_readout.text = "Opponent's Turn"
 	state = OPPONENT_TURN
 	$Timer.start(randf() + 1.0)
 	
 func player_pass():
 	print("player passes")
+	clear_readout()
 	move_play_to_pile()
 	give_opponent_pile()
 	start_opponent_turn()
@@ -159,6 +162,7 @@ func player_pass():
 	
 func opponent_pass():
 	print("opponent passes")
+	clear_readout()
 	move_play_to_pile()
 	give_player_pile()
 	start_player_turn()
