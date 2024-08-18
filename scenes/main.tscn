@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://d4jsgbnefaos0"]
+[gd_scene load_steps=12 format=3 uid="uid://d4jsgbnefaos0"]
 
 [ext_resource type="Texture2D" uid="uid://b1gjjsif3emk2" path="res://textures/table.png" id="1_ny0oj"]
 [ext_resource type="PackedScene" uid="uid://bfvp6uoec3dxw" path="res://scenes/hand.tscn" id="1_wtpr2"]
@@ -10,6 +10,13 @@
 [ext_resource type="Script" path="res://scripts/pile_button.gd" id="7_wmo5i"]
 [ext_resource type="PackedScene" uid="uid://ce8amhnue1moi" path="res://scenes/win_pile.tscn" id="8_xmb16"]
 [ext_resource type="PackedScene" uid="uid://ck6qk0ej0g33d" path="res://scenes/opponent_hand.tscn" id="9_bf6rh"]
+
+[sub_resource type="GDScript" id="GDScript_nvd1v"]
+script/source = "extends Button
+
+func _on_pressed() -> void:
+	pass # Replace with function body.
+"
 
 [node name="Root" type="Node2D"]
 
@@ -86,6 +93,16 @@ offset_bottom = -160.0
 layout_mode = 2
 text = "pass"
 
+[node name="ResetButton" type="Button" parent="UI"]
+layout_mode = 0
+offset_left = -448.0
+offset_top = -249.0
+offset_right = -400.0
+offset_bottom = -218.0
+scale = Vector2(2.02161, 2.15109)
+text = "reset"
+script = SubResource("GDScript_nvd1v")
+
 [node name="Manager" type="Node2D" parent="." node_paths=PackedStringArray("player_hand", "opponent_hand", "player_deck", "opponent_deck", "pile", "win_pile")]
 z_index = -2
 script = ExtResource("7_mp5rb")
@@ -123,5 +140,6 @@ texture = ExtResource("1_ny0oj")
 [connection signal="pressed" from="UI/ThrowButton" to="UI/ThrowButton" method="_on_pressed"]
 [connection signal="pressed" from="UI/PileButton" to="UI/PileButton" method="_on_pressed"]
 [connection signal="pressed" from="UI/PanelContainer/PassButton" to="Manager" method="_on_player_pass"]
+[connection signal="pressed" from="UI/ResetButton" to="Manager" method="_on_reset_button_pressed"]
 [connection signal="timeout" from="Manager/Timer" to="Manager" method="_on_opponent_timer_timeout"]
 [connection signal="timeout" from="Manager/WinHandTimer" to="Manager" method="_on_win_hand_timer_timeout"]

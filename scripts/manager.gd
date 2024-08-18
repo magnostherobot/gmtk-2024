@@ -216,3 +216,7 @@ func _on_win_hand_timer_timeout() -> void:
 		opponent_wins_hand()
 	elif state == PLAYER_TURN:
 		player_wins_hand()
+
+func _on_reset_button_pressed() -> void:
+	play_scale = 1
+	start_game()
